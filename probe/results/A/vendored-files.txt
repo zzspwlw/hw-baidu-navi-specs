@@ -1,0 +1,5 @@
+Pods/HwBaiduNaviKit/HwBaiduNaviKit/MapSDK/BaiduMapAPI_Map.framework
+Pods/HwBaiduNaviKit/HwBaiduNaviKit/MapSDK/thirdlibs/libzstd.a
+Pods/HwBaiduNaviKit/HwBaiduNaviKit/MapSDK/BaiduMapAPI_Base.framework
+Pods/HwBaiduNaviKit/HwBaiduNaviKit/NaviSDK/BaiduNaviSDK.framework
+Pods/HwBaiduNaviKit/HwBaiduNaviKit/NaviSDK/lib/libBNOpenTTSComponent.a

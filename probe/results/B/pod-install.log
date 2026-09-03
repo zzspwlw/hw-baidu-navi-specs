@@ -1,0 +1,515 @@
+  Preparing
+
+Analyzing dependencies
+
+Inspecting targets to integrate
+  Using `ARCHS` setting to build architectures of target `Pods-unimoduleProbe`: (``)
+
+Fetching external sources
+-> Pre-downloading: `BaiduNaviKit3` from `https://gitcode.com/qqbuy/podspec.git`, tag `7.2.1.7`
+ > Git download
+ > Git download
+     $ /opt/homebrew/bin/git clone https://gitcode.com/qqbuy/podspec.git /var/folders/s6/5hzmn6lx4dz5nxs7k_0slzph0000gn/T/d20260903-16185-ka1twd --template= --single-branch --depth 1 --branch 7.2.1.7
+     Cloning into '/var/folders/s6/5hzmn6lx4dz5nxs7k_0slzph0000gn/T/d20260903-16185-ka1twd'...
+     warning: refs/tags/7.2.1.7 6b374f3dc045b37b1d7d102c0139b498575290c7 is not a commit!
+     Updating files:  75% (2326/3085)     Updating files:  76% (2345/3085)     Updating files:  77% (2376/3085)     Updating files:  78% (2407/3085)     Updating files:  79% (2438/3085)     Updating files:  80% (2468/3085)     Updating files:  81% (2499/3085)     Updating files:  82% (2530/3085)     Updating files:  83% (2561/3085)     Updating files:  84% (2592/3085)     Updating files:  85% (2623/3085)     Updating files:  86% (2654/3085)     Updating files:  87% (2684/3085)     Updating files:  88% (2715/3085)     Updating files:  89% (2746/3085)     Updating files:  90% (2777/3085)     Updating files:  91% (2808/3085)     Updating files:  92% (2839/3085)     Updating files:  93% (2870/3085)     Updating files:  94% (2900/3085)     Updating files:  95% (2931/3085)     Updating files:  96% (2962/3085)     Updating files:  97% (2993/3085)     Updating files:  98% (3024/3085)     Updating files:  99% (3055/3085)     Updating files: 100% (3085/3085)     Updating files: 100% (3085/3085), done.
+     Filtering content:   2% (1/46)     Filtering content:   4% (2/46)     Filtering content:   6% (3/46)     Filtering content:   8% (4/46)     Filtering content:  10% (5/46)     Filtering content:  13% (6/46)     Filtering content:  15% (7/46)     Filtering content:  17% (8/46)     Filtering content:  19% (9/46), 85.36 KiB | 149.00 KiB/s     Filtering content:  21% (10/46), 85.36 KiB | 149.00 KiB/s     Filtering content:  23% (11/46), 85.36 KiB | 149.00 KiB/s     Filtering content:  26% (12/46), 85.36 KiB | 149.00 KiB/s     Filtering content:  28% (13/46), 85.36 KiB | 149.00 KiB/s     Filtering content:  30% (14/46), 85.36 KiB | 149.00 KiB/s     Filtering content:  32% (15/46), 85.36 KiB | 149.00 KiB/s     Filtering content:  34% (16/46), 85.36 KiB | 149.00 KiB/s     Filtering content:  36% (17/46), 85.36 KiB | 149.00 KiB/s     Filtering content:  39% (18/46), 118.67 KiB | 100.00 KiB/s     Filtering content:  41% (19/46), 118.67 KiB | 100.00 KiB/s     Filtering content:  43% (20/46), 118.67 KiB | 100.00 KiB/s     Filtering content:  45% (21/46), 118.67 KiB | 100.00 KiB/s     Filtering content:  47% (22/46), 118.67 KiB | 100.00 KiB/s     Filtering content:  50% (23/46), 118.67 KiB | 100.00 KiB/s     Filtering content:  52% (24/46), 118.67 KiB | 100.00 KiB/s     Filtering content:  54% (25/46), 118.67 KiB | 100.00 KiB/s     Filtering content:  56% (26/46), 118.67 KiB | 100.00 KiB/s     Filtering content:  58% (27/46), 118.67 KiB | 100.00 KiB/s     Filtering content:  60% (28/46), 118.67 KiB | 100.00 KiB/s     Filtering content:  63% (29/46), 118.67 KiB | 100.00 KiB/s     Filtering content:  65% (30/46), 118.67 KiB | 100.00 KiB/s     Filtering content:  67% (31/46), 118.67 KiB | 100.00 KiB/s     Filtering content:  69% (32/46), 118.67 KiB | 100.00 KiB/s     Filtering content:  71% (33/46), 6.87 MiB | 4.23 MiB/s         Filtering content:  73% (34/46), 6.87 MiB | 4.23 MiB/s     Filtering content:  76% (35/46), 6.87 MiB | 4.23 MiB/s     Filtering content:  78% (36/46), 6.87 MiB | 4.23 MiB/s     Filtering content:  80% (37/46), 6.87 MiB | 4.23 MiB/s     Filtering content:  82% (38/46), 6.87 MiB | 4.23 MiB/s     Filtering content:  84% (39/46), 6.87 MiB | 4.23 MiB/s     Filtering content:  86% (40/46), 6.87 MiB | 4.23 MiB/s     Filtering content:  89% (41/46), 6.87 MiB | 4.23 MiB/s     Filtering content:  91% (42/46), 6.87 MiB | 4.23 MiB/s     Filtering content:  93% (43/46), 6.87 MiB | 4.23 MiB/s     Filtering content:  95% (44/46), 6.87 MiB | 4.23 MiB/s     Filtering content:  97% (45/46), 24.42 MiB | 9.90 MiB/s     Filtering content: 100% (46/46), 110.57 MiB | 23.87 MiB/s     Filtering content: 100% (46/46), 221.57 MiB | 24.68 MiB/s, done.
+  $ /usr/bin/rsync -a --exclude=.git --delete /var/folders/s6/5hzmn6lx4dz5nxs7k_0slzph0000gn/T/d20260903-16185-ka1twd/ /Users/runner/Library/Caches/CocoaPods/Pods/External/BaiduNaviKit3/42bba4b4d9a0ea2564ff76ad7faf1320
+  > Copying BaiduNaviKit3 from `/Users/runner/Library/Caches/CocoaPods/Pods/External/BaiduNaviKit3/42bba4b4d9a0ea2564ff76ad7faf1320` to `Pods/BaiduNaviKit3`
+
+Resolving dependencies of `Podfile`
+  CDN: trunk Relative path: CocoaPods-version.yml exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path downloaded: all_pods_versions_a_a_4.txt, save ETag: W/"6a993833-72e"
+  CDN: trunk Redirecting from https://cdn.cocoapods.org/Specs/a/a/4/Masonry/0.0.2/Masonry.podspec.json to https://cdn.jsdelivr.net/cocoa/Specs/a/a/4/Masonry/0.0.2/Masonry.podspec.json
+  CDN: trunk Redirecting from https://cdn.cocoapods.org/Specs/a/a/4/Masonry/0.0.3/Masonry.podspec.json to https://cdn.jsdelivr.net/cocoa/Specs/a/a/4/Masonry/0.0.3/Masonry.podspec.json
+  CDN: trunk Redirecting from https://cdn.cocoapods.org/Specs/a/a/4/Masonry/0.1.0/Masonry.podspec.json to https://cdn.jsdelivr.net/cocoa/Specs/a/a/4/Masonry/0.1.0/Masonry.podspec.json
+  CDN: trunk Redirecting from https://cdn.cocoapods.org/Specs/a/a/4/Masonry/0.1.5/Masonry.podspec.json to https://cdn.jsdelivr.net/cocoa/Specs/a/a/4/Masonry/0.1.5/Masonry.podspec.json
+  CDN: trunk Redirecting from https://cdn.cocoapods.org/Specs/a/a/4/Masonry/0.1.6/Masonry.podspec.json to https://cdn.jsdelivr.net/cocoa/Specs/a/a/4/Masonry/0.1.6/Masonry.podspec.json
+  CDN: trunk Redirecting from https://cdn.cocoapods.org/Specs/a/a/4/Masonry/0.2.0/Masonry.podspec.json to https://cdn.jsdelivr.net/cocoa/Specs/a/a/4/Masonry/0.2.0/Masonry.podspec.json
+  CDN: trunk Redirecting from https://cdn.cocoapods.org/Specs/a/a/4/Masonry/0.2.1/Masonry.podspec.json to https://cdn.jsdelivr.net/cocoa/Specs/a/a/4/Masonry/0.2.1/Masonry.podspec.json
+  CDN: trunk Redirecting from https://cdn.cocoapods.org/Specs/a/a/4/Masonry/0.2.2/Masonry.podspec.json to https://cdn.jsdelivr.net/cocoa/Specs/a/a/4/Masonry/0.2.2/Masonry.podspec.json
+  CDN: trunk Redirecting from https://cdn.cocoapods.org/Specs/a/a/4/Masonry/0.2.3/Masonry.podspec.json to https://cdn.jsdelivr.net/cocoa/Specs/a/a/4/Masonry/0.2.3/Masonry.podspec.json
+  CDN: trunk Redirecting from https://cdn.cocoapods.org/Specs/a/a/4/Masonry/0.2.4/Masonry.podspec.json to https://cdn.jsdelivr.net/cocoa/Specs/a/a/4/Masonry/0.2.4/Masonry.podspec.json
+  CDN: trunk Redirecting from https://cdn.cocoapods.org/Specs/a/a/4/Masonry/0.3.0/Masonry.podspec.json to https://cdn.jsdelivr.net/cocoa/Specs/a/a/4/Masonry/0.3.0/Masonry.podspec.json
+  CDN: trunk Redirecting from https://cdn.cocoapods.org/Specs/a/a/4/Masonry/0.3.1/Masonry.podspec.json to https://cdn.jsdelivr.net/cocoa/Specs/a/a/4/Masonry/0.3.1/Masonry.podspec.json
+  CDN: trunk Redirecting from https://cdn.cocoapods.org/Specs/a/a/4/Masonry/0.3.2/Masonry.podspec.json to https://cdn.jsdelivr.net/cocoa/Specs/a/a/4/Masonry/0.3.2/Masonry.podspec.json
+  CDN: trunk Redirecting from https://cdn.cocoapods.org/Specs/a/a/4/Masonry/0.4.0/Masonry.podspec.json to https://cdn.jsdelivr.net/cocoa/Specs/a/a/4/Masonry/0.4.0/Masonry.podspec.json
+  CDN: trunk Redirecting from https://cdn.cocoapods.org/Specs/a/a/4/Masonry/0.5.0/Masonry.podspec.json to https://cdn.jsdelivr.net/cocoa/Specs/a/a/4/Masonry/0.5.0/Masonry.podspec.json
+  CDN: trunk Redirecting from https://cdn.cocoapods.org/Specs/a/a/4/Masonry/0.5.1/Masonry.podspec.json to https://cdn.jsdelivr.net/cocoa/Specs/a/a/4/Masonry/0.5.1/Masonry.podspec.json
+  CDN: trunk Redirecting from https://cdn.cocoapods.org/Specs/a/a/4/Masonry/0.5.2/Masonry.podspec.json to https://cdn.jsdelivr.net/cocoa/Specs/a/a/4/Masonry/0.5.2/Masonry.podspec.json
+  CDN: trunk Redirecting from https://cdn.cocoapods.org/Specs/a/a/4/Masonry/0.5.3/Masonry.podspec.json to https://cdn.jsdelivr.net/cocoa/Specs/a/a/4/Masonry/0.5.3/Masonry.podspec.json
+  CDN: trunk Redirecting from https://cdn.cocoapods.org/Specs/a/a/4/Masonry/0.6.0/Masonry.podspec.json to https://cdn.jsdelivr.net/cocoa/Specs/a/a/4/Masonry/0.6.0/Masonry.podspec.json
+  CDN: trunk Redirecting from https://cdn.cocoapods.org/Specs/a/a/4/Masonry/0.6.1/Masonry.podspec.json to https://cdn.jsdelivr.net/cocoa/Specs/a/a/4/Masonry/0.6.1/Masonry.podspec.json
+  CDN: trunk Redirecting from https://cdn.cocoapods.org/Specs/a/a/4/Masonry/0.6.2/Masonry.podspec.json to https://cdn.jsdelivr.net/cocoa/Specs/a/a/4/Masonry/0.6.2/Masonry.podspec.json
+  CDN: trunk Redirecting from https://cdn.cocoapods.org/Specs/a/a/4/Masonry/0.6.3/Masonry.podspec.json to https://cdn.jsdelivr.net/cocoa/Specs/a/a/4/Masonry/0.6.3/Masonry.podspec.json
+  CDN: trunk Redirecting from https://cdn.cocoapods.org/Specs/a/a/4/Masonry/1.0.2/Masonry.podspec.json to https://cdn.jsdelivr.net/cocoa/Specs/a/a/4/Masonry/1.0.2/Masonry.podspec.json
+  CDN: trunk Redirecting from https://cdn.cocoapods.org/Specs/a/a/4/Masonry/0.6.4/Masonry.podspec.json to https://cdn.jsdelivr.net/cocoa/Specs/a/a/4/Masonry/0.6.4/Masonry.podspec.json
+  CDN: trunk Redirecting from https://cdn.cocoapods.org/Specs/a/a/4/Masonry/1.0.0/Masonry.podspec.json to https://cdn.jsdelivr.net/cocoa/Specs/a/a/4/Masonry/1.0.0/Masonry.podspec.json
+  CDN: trunk Redirecting from https://cdn.cocoapods.org/Specs/a/a/4/Masonry/1.0.1/Masonry.podspec.json to https://cdn.jsdelivr.net/cocoa/Specs/a/a/4/Masonry/1.0.1/Masonry.podspec.json
+  CDN: trunk Redirecting from https://cdn.cocoapods.org/Specs/a/a/4/Masonry/1.1.0/Masonry.podspec.json to https://cdn.jsdelivr.net/cocoa/Specs/a/a/4/Masonry/1.1.0/Masonry.podspec.json
+  CDN: trunk Relative path downloaded: Specs/a/a/4/Masonry/0.5.1/Masonry.podspec.json, save ETag: W/"424-/MZTQUn6QPPSwdZ6vH1yA8owmEs"
+  CDN: trunk Relative path downloaded: Specs/a/a/4/Masonry/0.6.1/Masonry.podspec.json, save ETag: W/"424-SXIwny8TTendMS9NxKITWbUObKo"
+  CDN: trunk Relative path downloaded: Specs/a/a/4/Masonry/1.0.2/Masonry.podspec.json, save ETag: W/"475-fEKbVtqdTuC7s+13pepxDWpd854"
+  CDN: trunk Relative path downloaded: Specs/a/a/4/Masonry/0.6.4/Masonry.podspec.json, save ETag: W/"475-KBgC0E14fqKXMXnui8tQUAV57eI"
+  CDN: trunk Relative path downloaded: Specs/a/a/4/Masonry/1.0.0/Masonry.podspec.json, save ETag: W/"475-tSm7FpIXiXtjVNS1ax+tptR1sT0"
+  CDN: trunk Relative path downloaded: Specs/a/a/4/Masonry/1.0.1/Masonry.podspec.json, save ETag: W/"475-oakxoNCIcO2K5BWi6l6mjrysd98"
+  CDN: trunk Relative path downloaded: Specs/a/a/4/Masonry/1.1.0/Masonry.podspec.json, save ETag: W/"475-Z4+rZQkakpDkDigypV56tzGq0gE"
+  CDN: trunk Relative path downloaded: Specs/a/a/4/Masonry/0.0.3/Masonry.podspec.json, save ETag: W/"36a-L1RQldvFj3HBe3Nd1+OGw6ts6ko"
+  CDN: trunk Relative path downloaded: Specs/a/a/4/Masonry/0.1.0/Masonry.podspec.json, save ETag: W/"36a-0Jx+HmWbawW4C+z6TAuit7ULMDM"
+  CDN: trunk Relative path downloaded: Specs/a/a/4/Masonry/0.1.5/Masonry.podspec.json, save ETag: W/"36a-H8Cm7TTphtToq4hxWvq3NXJLO+8"
+  CDN: trunk Relative path downloaded: Specs/a/a/4/Masonry/0.1.6/Masonry.podspec.json, save ETag: W/"356-HhQp1qjBf05EtJs5uTTP1EcP3hE"
+  CDN: trunk Relative path downloaded: Specs/a/a/4/Masonry/0.2.0/Masonry.podspec.json, save ETag: W/"3cd-Cd0Z/5OX61YbNIwWjB44UFmduDE"
+  CDN: trunk Relative path downloaded: Specs/a/a/4/Masonry/0.2.2/Masonry.podspec.json, save ETag: W/"3f0-rwLFH6SjCiXIlapGm97PiEzhsSA"
+  CDN: trunk Relative path downloaded: Specs/a/a/4/Masonry/0.2.3/Masonry.podspec.json, save ETag: W/"3ee-b82NNTizF5rv0mfPafw66c+QPnI"
+  CDN: trunk Relative path downloaded: Specs/a/a/4/Masonry/0.2.4/Masonry.podspec.json, save ETag: W/"3ee-TFpIR1v6vvthuarqhjKs2LnDnLQ"
+  CDN: trunk Relative path downloaded: Specs/a/a/4/Masonry/0.2.1/Masonry.podspec.json, save ETag: W/"3f0-G8bSVwxyP4cJ+mXDby7yaOjcXtw"
+  CDN: trunk Relative path downloaded: Specs/a/a/4/Masonry/0.3.0/Masonry.podspec.json, save ETag: W/"3ee-YUIJ2oP9IBuD1pk+x+BpJW7R9MU"
+  CDN: trunk Relative path downloaded: Specs/a/a/4/Masonry/0.3.1/Masonry.podspec.json, save ETag: W/"3ee-F8f5BhVrt3C0bcU5xRe50cXbNpk"
+  CDN: trunk Relative path downloaded: Specs/a/a/4/Masonry/0.3.2/Masonry.podspec.json, save ETag: W/"3ee-8crRKk/ngtLg/rrtfNYQHIveBwE"
+  CDN: trunk Relative path downloaded: Specs/a/a/4/Masonry/0.5.2/Masonry.podspec.json, save ETag: W/"424-/SYPxl8n59RVM26wo3sQeNIJ6So"
+  CDN: trunk Relative path downloaded: Specs/a/a/4/Masonry/0.5.3/Masonry.podspec.json, save ETag: W/"424-n1FUZq/khjJWI0KkChwiQHGhoCI"
+  CDN: trunk Relative path downloaded: Specs/a/a/4/Masonry/0.6.0/Masonry.podspec.json, save ETag: W/"424-aV3O5c+QUEzIPYXEDgvT9Ddu1YM"
+  CDN: trunk Relative path downloaded: Specs/a/a/4/Masonry/0.4.0/Masonry.podspec.json, save ETag: W/"3ee-qVDRk0B1uHvJQXIKFDnxmQ+g6tc"
+  CDN: trunk Relative path downloaded: Specs/a/a/4/Masonry/0.6.3/Masonry.podspec.json, save ETag: W/"424-/xBalWq80ZphiyAosSHLY416ji8"
+  CDN: trunk Relative path downloaded: Specs/a/a/4/Masonry/0.5.0/Masonry.podspec.json, save ETag: W/"424-khST1D/W3dQ25UHnpmJeeQ1PRXo"
+  CDN: trunk Relative path downloaded: Specs/a/a/4/Masonry/0.6.2/Masonry.podspec.json, save ETag: W/"424-Ni6KHMC+raSkxIMtXoY9oqUVM74"
+  CDN: trunk Relative path downloaded: Specs/a/a/4/Masonry/0.0.2/Masonry.podspec.json, save ETag: W/"36a-qeNa49PIAgk6J2POe2a7fzVIKdk"
+  CDN: trunk Relative path: Specs/a/a/4/Masonry/1.1.0/Masonry.podspec.json modified during this run! Returning local
+  CDN: trunk Relative path downloaded: all_pods_versions_5_b_d.txt, save ETag: W/"6a993dc6-626"
+  CDN: trunk Redirecting from https://cdn.cocoapods.org/Specs/5/b/d/OpenCV/2.4.10/OpenCV.podspec.json to https://cdn.jsdelivr.net/cocoa/Specs/5/b/d/OpenCV/2.4.10/OpenCV.podspec.json
+  CDN: trunk Redirecting from https://cdn.cocoapods.org/Specs/5/b/d/OpenCV/2.4.11/OpenCV.podspec.json to https://cdn.jsdelivr.net/cocoa/Specs/5/b/d/OpenCV/2.4.11/OpenCV.podspec.json
+  CDN: trunk Redirecting from https://cdn.cocoapods.org/Specs/5/b/d/OpenCV/2.4.12/OpenCV.podspec.json to https://cdn.jsdelivr.net/cocoa/Specs/5/b/d/OpenCV/2.4.12/OpenCV.podspec.json
+  CDN: trunk Redirecting from https://cdn.cocoapods.org/Specs/5/b/d/OpenCV/2.4.12.3/OpenCV.podspec.json to https://cdn.jsdelivr.net/cocoa/Specs/5/b/d/OpenCV/2.4.12.3/OpenCV.podspec.json
+  CDN: trunk Redirecting from https://cdn.cocoapods.org/Specs/5/b/d/OpenCV/2.4.13.2/OpenCV.podspec.json to https://cdn.jsdelivr.net/cocoa/Specs/5/b/d/OpenCV/2.4.13.2/OpenCV.podspec.json
+  CDN: trunk Redirecting from https://cdn.cocoapods.org/Specs/5/b/d/OpenCV/2.4.13.3/OpenCV.podspec.json to https://cdn.jsdelivr.net/cocoa/Specs/5/b/d/OpenCV/2.4.13.3/OpenCV.podspec.json
+  CDN: trunk Redirecting from https://cdn.cocoapods.org/Specs/5/b/d/OpenCV/2.4.13.5/OpenCV.podspec.json to https://cdn.jsdelivr.net/cocoa/Specs/5/b/d/OpenCV/2.4.13.5/OpenCV.podspec.json
+  CDN: trunk Redirecting from https://cdn.cocoapods.org/Specs/5/b/d/OpenCV/2.4.13.6/OpenCV.podspec.json to https://cdn.jsdelivr.net/cocoa/Specs/5/b/d/OpenCV/2.4.13.6/OpenCV.podspec.json
+  CDN: trunk Redirecting from https://cdn.cocoapods.org/Specs/5/b/d/OpenCV/2.4.13.4/OpenCV.podspec.json to https://cdn.jsdelivr.net/cocoa/Specs/5/b/d/OpenCV/2.4.13.4/OpenCV.podspec.json
+  CDN: trunk Redirecting from https://cdn.cocoapods.org/Specs/5/b/d/OpenCV/2.4.3/OpenCV.podspec.json to https://cdn.jsdelivr.net/cocoa/Specs/5/b/d/OpenCV/2.4.3/OpenCV.podspec.json
+  CDN: trunk Redirecting from https://cdn.cocoapods.org/Specs/5/b/d/OpenCV/2.4.3.2/OpenCV.podspec.json to https://cdn.jsdelivr.net/cocoa/Specs/5/b/d/OpenCV/2.4.3.2/OpenCV.podspec.json
+  CDN: trunk Redirecting from https://cdn.cocoapods.org/Specs/5/b/d/OpenCV/2.4.5/OpenCV.podspec.json to https://cdn.jsdelivr.net/cocoa/Specs/5/b/d/OpenCV/2.4.5/OpenCV.podspec.json
+  CDN: trunk Redirecting from https://cdn.cocoapods.org/Specs/5/b/d/OpenCV/2.4.6/OpenCV.podspec.json to https://cdn.jsdelivr.net/cocoa/Specs/5/b/d/OpenCV/2.4.6/OpenCV.podspec.json
+  CDN: trunk Redirecting from https://cdn.cocoapods.org/Specs/5/b/d/OpenCV/2.4.7/OpenCV.podspec.json to https://cdn.jsdelivr.net/cocoa/Specs/5/b/d/OpenCV/2.4.7/OpenCV.podspec.json
+  CDN: trunk Redirecting from https://cdn.cocoapods.org/Specs/5/b/d/OpenCV/2.4.8/OpenCV.podspec.json to https://cdn.jsdelivr.net/cocoa/Specs/5/b/d/OpenCV/2.4.8/OpenCV.podspec.json
+  CDN: trunk Redirecting from https://cdn.cocoapods.org/Specs/5/b/d/OpenCV/2.4.9/OpenCV.podspec.json to https://cdn.jsdelivr.net/cocoa/Specs/5/b/d/OpenCV/2.4.9/OpenCV.podspec.json
+  CDN: trunk Redirecting from https://cdn.cocoapods.org/Specs/5/b/d/OpenCV/2.4.9.1/OpenCV.podspec.json to https://cdn.jsdelivr.net/cocoa/Specs/5/b/d/OpenCV/2.4.9.1/OpenCV.podspec.json
+  CDN: trunk Redirecting from https://cdn.cocoapods.org/Specs/5/b/d/OpenCV/3.0.0/OpenCV.podspec.json to https://cdn.jsdelivr.net/cocoa/Specs/5/b/d/OpenCV/3.0.0/OpenCV.podspec.json
+  CDN: trunk Redirecting from https://cdn.cocoapods.org/Specs/5/b/d/OpenCV/2.4.9.2/OpenCV.podspec.json to https://cdn.jsdelivr.net/cocoa/Specs/5/b/d/OpenCV/2.4.9.2/OpenCV.podspec.json
+  CDN: trunk Redirecting from https://cdn.cocoapods.org/Specs/5/b/d/OpenCV/3.1.0/OpenCV.podspec.json to https://cdn.jsdelivr.net/cocoa/Specs/5/b/d/OpenCV/3.1.0/OpenCV.podspec.json
+  CDN: trunk Redirecting from https://cdn.cocoapods.org/Specs/5/b/d/OpenCV/3.1.0.1/OpenCV.podspec.json to https://cdn.jsdelivr.net/cocoa/Specs/5/b/d/OpenCV/3.1.0.1/OpenCV.podspec.json
+  CDN: trunk Redirecting from https://cdn.cocoapods.org/Specs/5/b/d/OpenCV/3.2.0/OpenCV.podspec.json to https://cdn.jsdelivr.net/cocoa/Specs/5/b/d/OpenCV/3.2.0/OpenCV.podspec.json
+  CDN: trunk Redirecting from https://cdn.cocoapods.org/Specs/5/b/d/OpenCV/3.3.0/OpenCV.podspec.json to https://cdn.jsdelivr.net/cocoa/Specs/5/b/d/OpenCV/3.3.0/OpenCV.podspec.json
+  CDN: trunk Redirecting from https://cdn.cocoapods.org/Specs/5/b/d/OpenCV/3.3.0.1/OpenCV.podspec.json to https://cdn.jsdelivr.net/cocoa/Specs/5/b/d/OpenCV/3.3.0.1/OpenCV.podspec.json
+  CDN: trunk Redirecting from https://cdn.cocoapods.org/Specs/5/b/d/OpenCV/3.3.1/OpenCV.podspec.json to https://cdn.jsdelivr.net/cocoa/Specs/5/b/d/OpenCV/3.3.1/OpenCV.podspec.json
+  CDN: trunk Redirecting from https://cdn.cocoapods.org/Specs/5/b/d/OpenCV/3.3.1.1/OpenCV.podspec.json to https://cdn.jsdelivr.net/cocoa/Specs/5/b/d/OpenCV/3.3.1.1/OpenCV.podspec.json
+  CDN: trunk Redirecting from https://cdn.cocoapods.org/Specs/5/b/d/OpenCV/3.4.0/OpenCV.podspec.json to https://cdn.jsdelivr.net/cocoa/Specs/5/b/d/OpenCV/3.4.0/OpenCV.podspec.json
+  CDN: trunk Redirecting from https://cdn.cocoapods.org/Specs/5/b/d/OpenCV/3.4.1/OpenCV.podspec.json to https://cdn.jsdelivr.net/cocoa/Specs/5/b/d/OpenCV/3.4.1/OpenCV.podspec.json
+  CDN: trunk Redirecting from https://cdn.cocoapods.org/Specs/5/b/d/OpenCV/3.4.2/OpenCV.podspec.json to https://cdn.jsdelivr.net/cocoa/Specs/5/b/d/OpenCV/3.4.2/OpenCV.podspec.json
+  CDN: trunk Redirecting from https://cdn.cocoapods.org/Specs/5/b/d/OpenCV/3.4.3/OpenCV.podspec.json to https://cdn.jsdelivr.net/cocoa/Specs/5/b/d/OpenCV/3.4.3/OpenCV.podspec.json
+  CDN: trunk Redirecting from https://cdn.cocoapods.org/Specs/5/b/d/OpenCV/3.4.4/OpenCV.podspec.json to https://cdn.jsdelivr.net/cocoa/Specs/5/b/d/OpenCV/3.4.4/OpenCV.podspec.json
+  CDN: trunk Redirecting from https://cdn.cocoapods.org/Specs/5/b/d/OpenCV/3.4.5/OpenCV.podspec.json to https://cdn.jsdelivr.net/cocoa/Specs/5/b/d/OpenCV/3.4.5/OpenCV.podspec.json
+  CDN: trunk Redirecting from https://cdn.cocoapods.org/Specs/5/b/d/OpenCV/3.4.6/OpenCV.podspec.json to https://cdn.jsdelivr.net/cocoa/Specs/5/b/d/OpenCV/3.4.6/OpenCV.podspec.json
+  CDN: trunk Redirecting from https://cdn.cocoapods.org/Specs/5/b/d/OpenCV/4.0.0/OpenCV.podspec.json to https://cdn.jsdelivr.net/cocoa/Specs/5/b/d/OpenCV/4.0.0/OpenCV.podspec.json
+  CDN: trunk Redirecting from https://cdn.cocoapods.org/Specs/5/b/d/OpenCV/4.0.1/OpenCV.podspec.json to https://cdn.jsdelivr.net/cocoa/Specs/5/b/d/OpenCV/4.0.1/OpenCV.podspec.json
+  CDN: trunk Redirecting from https://cdn.cocoapods.org/Specs/5/b/d/OpenCV/4.1.0/OpenCV.podspec.json to https://cdn.jsdelivr.net/cocoa/Specs/5/b/d/OpenCV/4.1.0/OpenCV.podspec.json
+  CDN: trunk Redirecting from https://cdn.cocoapods.org/Specs/5/b/d/OpenCV/4.2.0/OpenCV.podspec.json to https://cdn.jsdelivr.net/cocoa/Specs/5/b/d/OpenCV/4.2.0/OpenCV.podspec.json
+  CDN: trunk Redirecting from https://cdn.cocoapods.org/Specs/5/b/d/OpenCV/4.3.0/OpenCV.podspec.json to https://cdn.jsdelivr.net/cocoa/Specs/5/b/d/OpenCV/4.3.0/OpenCV.podspec.json
+  CDN: trunk Relative path downloaded: Specs/5/b/d/OpenCV/2.4.10/OpenCV.podspec.json, save ETag: W/"b26-Juf6T29yelBGfCRbLu4UifR40PU"
+  CDN: trunk Relative path downloaded: Specs/5/b/d/OpenCV/2.4.11/OpenCV.podspec.json, save ETag: W/"bfc-47sLuu7IctVjFf2tzmEPRC1COc0"
+  CDN: trunk Relative path downloaded: Specs/5/b/d/OpenCV/2.4.12/OpenCV.podspec.json, save ETag: W/"bfc-OJ1y0vlK+LiJ2lbQQmHP0X9b2Jc"
+  CDN: trunk Relative path downloaded: Specs/5/b/d/OpenCV/2.4.12.3/OpenCV.podspec.json, save ETag: W/"c00-Uv1razEpbYF/aSVEQdoRHVpmEgc"
+  CDN: trunk Relative path downloaded: Specs/5/b/d/OpenCV/2.4.13.2/OpenCV.podspec.json, save ETag: W/"b92-m0wMWZdmY410qSkR9Hg4NsAiYvM"
+  CDN: trunk Relative path downloaded: Specs/5/b/d/OpenCV/2.4.13.3/OpenCV.podspec.json, save ETag: W/"bbe-ep4xnYNJEre6py3oaHzW7/gAMJs"
+  CDN: trunk Relative path downloaded: Specs/5/b/d/OpenCV/2.4.13.4/OpenCV.podspec.json, save ETag: W/"bbe-IfnqzciQ/KqXcnm9AHwPEsqd2y0"
+  CDN: trunk Relative path downloaded: Specs/5/b/d/OpenCV/2.4.3/OpenCV.podspec.json, save ETag: W/"363-CpZLwsgr2LtxIo/RzJC6Cw40wWg"
+  CDN: trunk Relative path downloaded: Specs/5/b/d/OpenCV/2.4.3.2/OpenCV.podspec.json, save ETag: W/"c8e-afbbj2JhDi3Vu2HeYERAJO689Uo"
+  CDN: trunk Relative path downloaded: Specs/5/b/d/OpenCV/2.4.5/OpenCV.podspec.json, save ETag: W/"d8e-hq0ys+og+6Dg2lEd2qWkyaGCl7c"
+  CDN: trunk Relative path downloaded: Specs/5/b/d/OpenCV/2.4.6/OpenCV.podspec.json, save ETag: W/"d8e-MIPz+Hfyp7DFk4PVu6UIjTOZk98"
+  CDN: trunk Relative path downloaded: Specs/5/b/d/OpenCV/2.4.7/OpenCV.podspec.json, save ETag: W/"db6-ufquYEVC4SIUXA0DVgo+aczPxss"
+  CDN: trunk Relative path downloaded: Specs/5/b/d/OpenCV/2.4.8/OpenCV.podspec.json, save ETag: W/"dab-uYO/Ox7Dd8GHk5k1Bm9Djc6vySY"
+  CDN: trunk Relative path downloaded: Specs/5/b/d/OpenCV/2.4.9/OpenCV.podspec.json, save ETag: W/"ac8-uxeQTlX8GbHw9sPim8BKfdMe3bk"
+  CDN: trunk Relative path downloaded: Specs/5/b/d/OpenCV/2.4.9.1/OpenCV.podspec.json, save ETag: W/"b2b-ajCk9x5bWoeebykKzDfxtRFdX6Y"
+  CDN: trunk Relative path downloaded: Specs/5/b/d/OpenCV/3.0.0/OpenCV.podspec.json, save ETag: W/"b24-vgfALw2PEl8dQNJh5mpmy2bs47M"
+  CDN: trunk Relative path downloaded: Specs/5/b/d/OpenCV/2.4.9.2/OpenCV.podspec.json, save ETag: W/"b28-ZxqHubYXuRNBwvdodj7icPgVSHg"
+  CDN: trunk Relative path downloaded: Specs/5/b/d/OpenCV/3.1.0/OpenCV.podspec.json, save ETag: W/"b6d-dVU8ubG3rVJlPaMkvxZq712QZiI"
+  CDN: trunk Relative path downloaded: Specs/5/b/d/OpenCV/3.1.0.1/OpenCV.podspec.json, save ETag: W/"b6d-QcQlDisGo5TW+7Y0tfpiLN2EYBg"
+  CDN: trunk Relative path downloaded: Specs/5/b/d/OpenCV/3.2.0/OpenCV.podspec.json, save ETag: W/"11ce-D3q0A9HoF2m8b09STDxpKOyx/bg"
+  CDN: trunk Relative path downloaded: Specs/5/b/d/OpenCV/3.3.0/OpenCV.podspec.json, save ETag: W/"f1d-mzbRq9vbzG6MrLbCnQ5nd/h0I7s"
+  CDN: trunk Relative path downloaded: Specs/5/b/d/OpenCV/3.3.0.1/OpenCV.podspec.json, save ETag: W/"d17-4jQdsZWm3tv/VWgh0pZ/l39ZTMQ"
+  CDN: trunk Relative path downloaded: Specs/5/b/d/OpenCV/3.3.1/OpenCV.podspec.json, save ETag: W/"ff4-2BRHhg8DjWByMISqAuzJY/lcVfo"
+  CDN: trunk Relative path downloaded: Specs/5/b/d/OpenCV/3.3.1.1/OpenCV.podspec.json, save ETag: W/"d17-wimIZxW6CiwZOpUNdLGIh3KCZ/Q"
+  CDN: trunk Relative path downloaded: Specs/5/b/d/OpenCV/3.4.0/OpenCV.podspec.json, save ETag: W/"b81-a8GXc8bJlkpT9iz+x/NvfXsxIHo"
+  CDN: trunk Relative path downloaded: Specs/5/b/d/OpenCV/3.4.1/OpenCV.podspec.json, save ETag: W/"b81-Uz1LM6Ar0iXEmDiQHbKh3bbv5rE"
+  CDN: trunk Relative path downloaded: Specs/5/b/d/OpenCV/3.4.2/OpenCV.podspec.json, save ETag: W/"b81-RSkJdHhUyS4PWWcJYe1RMfUobLU"
+  CDN: trunk Relative path downloaded: Specs/5/b/d/OpenCV/3.4.3/OpenCV.podspec.json, save ETag: W/"b81-a76hpLj1yqUMIbkacQ/ZTP19w/Y"
+  CDN: trunk Relative path downloaded: Specs/5/b/d/OpenCV/3.4.4/OpenCV.podspec.json, save ETag: W/"b32-MtBkSZKoJADbVIsbn40o79QOnNE"
+  CDN: trunk Relative path downloaded: Specs/5/b/d/OpenCV/3.4.5/OpenCV.podspec.json, save ETag: W/"b32-QXHDm9sX5lq9qR/IGV1EyzR3UPc"
+  CDN: trunk Relative path downloaded: Specs/5/b/d/OpenCV/3.4.6/OpenCV.podspec.json, save ETag: W/"b32-Hfe4q3WQDvQ2WQW5ib9g9cpBAao"
+  CDN: trunk Relative path downloaded: Specs/5/b/d/OpenCV/4.0.0/OpenCV.podspec.json, save ETag: W/"b32-jfGwVICqnPoSoG2z6cNmBKz8QJY"
+  CDN: trunk Relative path downloaded: Specs/5/b/d/OpenCV/4.0.1/OpenCV.podspec.json, save ETag: W/"b32-DsqgO/SBrjN/Boi320OhfWvfDbc"
+  CDN: trunk Relative path downloaded: Specs/5/b/d/OpenCV/4.1.0/OpenCV.podspec.json, save ETag: W/"b32-Us1Ncv8p4r6DQhR3rsVEcyC3+xk"
+  CDN: trunk Relative path downloaded: Specs/5/b/d/OpenCV/4.2.0/OpenCV.podspec.json, save ETag: W/"13f6-4RRaR4+9RXhvoZXAbbHpKhVIKws"
+  CDN: trunk Relative path downloaded: Specs/5/b/d/OpenCV/4.3.0/OpenCV.podspec.json, save ETag: W/"13f6-aB4EUcHlTFkwqJIid/gX7V1atFk"
+  CDN: trunk Relative path downloaded: Specs/5/b/d/OpenCV/2.4.13.5/OpenCV.podspec.json, save ETag: W/"bbe-QsyffK2YDwC99xEJuHrhlWgN0j4"
+  CDN: trunk Relative path downloaded: Specs/5/b/d/OpenCV/2.4.13.6/OpenCV.podspec.json, save ETag: W/"bbe-zTajRnwhVy1ljCZASI/g1ak8oZI"
+  CDN: trunk Relative path: Specs/5/b/d/OpenCV/4.3.0/OpenCV.podspec.json modified during this run! Returning local
+  CDN: trunk Relative path: Specs/a/a/4/Masonry/1.1.0/Masonry.podspec.json modified during this run! Returning local
+  CDN: trunk Relative path: Specs/5/b/d/OpenCV/3.4.6/OpenCV.podspec.json modified during this run! Returning local
+  CDN: trunk Relative path: Specs/5/b/d/OpenCV/3.4.5/OpenCV.podspec.json modified during this run! Returning local
+  CDN: trunk Relative path: Specs/5/b/d/OpenCV/3.4.4/OpenCV.podspec.json modified during this run! Returning local
+  CDN: trunk Relative path: Specs/5/b/d/OpenCV/3.4.3/OpenCV.podspec.json modified during this run! Returning local
+  CDN: trunk Relative path: Specs/5/b/d/OpenCV/3.4.2/OpenCV.podspec.json modified during this run! Returning local
+  CDN: trunk Relative path: Specs/5/b/d/OpenCV/3.4.1/OpenCV.podspec.json modified during this run! Returning local
+  CDN: trunk Relative path: Specs/5/b/d/OpenCV/3.4.0/OpenCV.podspec.json modified during this run! Returning local
+
+Comparing resolved specification to the sandbox manifest
+  A BaiduNaviKit3
+  A Masonry
+  A OpenCV
+
+Downloading dependencies
+
+-> Installing BaiduNaviKit3 (7.2.1.7)
+
+-> Installing Masonry (1.1.0)
+ > Git download
+ > Git download
+     $ /opt/homebrew/bin/git clone https://github.com/cloudkite/Masonry.git /var/folders/s6/5hzmn6lx4dz5nxs7k_0slzph0000gn/T/d20260903-16185-4yhdmr --template= --single-branch --depth 1 --branch v1.1.0
+     Cloning into '/var/folders/s6/5hzmn6lx4dz5nxs7k_0slzph0000gn/T/d20260903-16185-4yhdmr'...
+  $ /usr/bin/rsync -a --exclude=.git --delete /var/folders/s6/5hzmn6lx4dz5nxs7k_0slzph0000gn/T/d20260903-16185-4yhdmr/ /Users/runner/Library/Caches/CocoaPods/Pods/Release/Masonry/1.1.0-678fa
+  > Copying Masonry from `/Users/runner/Library/Caches/CocoaPods/Pods/Release/Masonry/1.1.0-678fa` to `Pods/Masonry`
+
+-> Installing OpenCV (3.4.6)
+ > Http download
+   $ /usr/bin/curl -f -L -o /var/folders/s6/5hzmn6lx4dz5nxs7k_0slzph0000gn/T/d20260903-16185-io0mvv/file.zip https://github.com/opencv/opencv/releases/download/3.4.6/opencv-3.4.6-ios-framework.zip --create-dirs --netrc-optional --retry 2 -A 'CocoaPods/1.17.0 cocoapods-downloader/2.1'
+     % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                    Dload  Upload   Total   Spent    Left  Speed
+        0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0     0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+       77  126M   77 97.4M    0     0   112M      0  0:00:01 --:--:--  0:00:01  112M   100  126M  100  126M    0     0   120M      0  0:00:01  0:00:01 --:--:--  154M
+   $ /usr/bin/unzip /var/folders/s6/5hzmn6lx4dz5nxs7k_0slzph0000gn/T/d20260903-16185-io0mvv/file.zip -d /var/folders/s6/5hzmn6lx4dz5nxs7k_0slzph0000gn/T/d20260903-16185-io0mvv
+   Archive:  /var/folders/s6/5hzmn6lx4dz5nxs7k_0slzph0000gn/T/d20260903-16185-io0mvv/file.zip
+      creating: /var/folders/s6/5hzmn6lx4dz5nxs7k_0slzph0000gn/T/d20260903-16185-io0mvv/opencv2.framework
+       linking: /var/folders/s6/5hzmn6lx4dz5nxs7k_0slzph0000gn/T/d20260903-16185-io0mvv/opencv2.framework/Headers  -> Versions/Current/Headers 
+       linking: /var/folders/s6/5hzmn6lx4dz5nxs7k_0slzph0000gn/T/d20260903-16185-io0mvv/opencv2.framework/Resources  -> Versions/Current/Resources 
+      creating: /var/folders/s6/5hzmn6lx4dz5nxs7k_0slzph0000gn/T/d20260903-16185-io0mvv/opencv2.framework/Versions
+      creating: /var/folders/s6/5hzmn6lx4dz5nxs7k_0slzph0000gn/T/d20260903-16185-io0mvv/opencv2.framework/Versions/A
+      creating: /var/folders/s6/5hzmn6lx4dz5nxs7k_0slzph0000gn/T/d20260903-16185-io0mvv/opencv2.framework/Versions/A/Headers
+      creating: /var/folders/s6/5hzmn6lx4dz5nxs7k_0slzph0000gn/T/d20260903-16185-io0mvv/opencv2.framework/Versions/A/Headers/calib3d
+     inflating: /var/folders/s6/5hzmn6lx4dz5nxs7k_0slzph0000gn/T/d20260903-16185-io0mvv/opencv2.framework/Versions/A/Headers/calib3d/calib3d.hpp  
+     inflating: /var/folders/s6/5hzmn6lx4dz5nxs7k_0slzph0000gn/T/d20260903-16185-io0mvv/opencv2.framework/Versions/A/Headers/calib3d/calib3d_c.h  
+     inflating: /var/folders/s6/5hzmn6lx4dz5nxs7k_0slzph0000gn/T/d20260903-16185-io0mvv/opencv2.framework/Versions/A/Headers/calib3d.hpp  
+      creating: /var/folders/s6/5hzmn6lx4dz5nxs7k_0slzph0000gn/T/d20260903-16185-io0mvv/opencv2.framework/Versions/A/Headers/core
+     inflating: /var/folders/s6/5hzmn6lx4dz5nxs7k_0slzph0000gn/T/d20260903-16185-io0mvv/opencv2.framework/Versions/A/Headers/core/affine.hpp  
+     inflating: /var/folders/s6/5hzmn6lx4dz5nxs7k_0slzph0000gn/T/d20260903-16185-io0mvv/opencv2.framework/Versions/A/Headers/core/base.hpp  
+     inflating: /var/folders/s6/5hzmn6lx4dz5nxs7k_0slzph0000gn/T/d20260903-16185-io0mvv/opencv2.framework/Versions/A/Headers/core/bindings_utils.hpp  
+     inflating: /var/folders/s6/5hzmn6lx4dz5nxs7k_0slzph0000gn/T/d20260903-16185-io0mvv/opencv2.framework/Versions/A/Headers/core/bufferpool.hpp  
+     inflating: /var/folders/s6/5hzmn6lx4dz5nxs7k_0slzph0000gn/T/d20260903-16185-io0mvv/opencv2.framework/Versions/A/Headers/core/check.hpp  
+     inflating: /var/folders/s6/5hzmn6lx4dz5nxs7k_0slzph0000gn/T/d20260903-16185-io0mvv/opencv2.framework/Versions/A/Headers/core/core.hpp  
+     inflating: /var/folders/s6/5hzmn6lx4dz5nxs7k_0slzph0000gn/T/d20260903-16185-io0mvv/opencv2.framework/Versions/A/Headers/core/core_c.h  
+      creating: /var/folders/s6/5hzmn6lx4dz5nxs7k_0slzph0000gn/T/d20260903-16185-io0mvv/opencv2.framework/Versions/A/Headers/core/cuda
+     inflating: /var/folders/s6/5hzmn6lx4dz5nxs7k_0slzph0000gn/T/d20260903-16185-io0mvv/opencv2.framework/Versions/A/Headers/core/cuda/block.hpp  
+     inflating: /var/folders/s6/5hzmn6lx4dz5nxs7k_0slzph0000gn/T/d20260903-16185-io0mvv/opencv2.framework/Versions/A/Headers/core/cuda/border_interpolate.hpp  
+     inflating: /var/folders/s6/5hzmn6lx4dz5nxs7k_0slzph0000gn/T/d20260903-16185-io0mvv/opencv2.framework/Versions/A/Headers/core/cuda/color.hpp  
+     inflating: /var/folders/s6/5hzmn6lx4dz5nxs7k_0slzph0000gn/T/d20260903-16185-io0mvv/opencv2.framework/Versions/A/Headers/core/cuda/common.hpp  
+     inflating: /var/folders/s6/5hzmn6lx4dz5nxs7k_0slzph0000gn/T/d20260903-16185-io0mvv/opencv2.framework/Versions/A/Headers/core/cuda/datamov_utils.hpp  
+      creating: /var/folders/s6/5hzmn6lx4dz5nxs7k_0slzph0000gn/T/d20260903-16185-io0mvv/opencv2.framework/Versions/A/Headers/core/cuda/detail
+     inflating: /var/folders/s6/5hzmn6lx4dz5nxs7k_0slzph0000gn/T/d20260903-16185-io0mvv/opencv2.framework/Versions/A/Headers/core/cuda/detail/color_detail.hpp  
+     inflating: /var/folders/s6/5hzmn6lx4dz5nxs7k_0slzph0000gn/T/d20260903-16185-io0mvv/opencv2.framework/Versions/A/Headers/core/cuda/detail/reduce.hpp  
+     inflating: /var/folders/s6/5hzmn6lx4dz5nxs7k_0slzph0000gn/T/d20260903-16185-io0mvv/opencv2.framework/Versions/A/Headers/core/cuda/detail/reduce_key_val.hpp  
+     inflating: /var/folders/s6/5hzmn6lx4dz5nxs7k_0slzph0000gn/T/d20260903-16185-io0mvv/opencv2.framework/Versions/A/Headers/core/cuda/detail/transform_detail.hpp  
+     inflating: /var/folders/s6/5hzmn6lx4dz5nxs7k_0slzph0000gn/T/d20260903-16185-io0mvv/opencv2.framework/Versions/A/Headers/core/cuda/detail/type_traits_detail.hpp  
+     inflating: /var/folders/s6/5hzmn6lx4dz5nxs7k_0slzph0000gn/T/d20260903-16185-io0mvv/opencv2.framework/Versions/A/Headers/core/cuda/detail/vec_distance_detail.hpp  
+     inflating: /var/folders/s6/5hzmn6lx4dz5nxs7k_0slzph0000gn/T/d20260903-16185-io0mvv/opencv2.framework/Versions/A/Headers/core/cuda/dynamic_smem.hpp  
+     inflating: /var/folders/s6/5hzmn6lx4dz5nxs7k_0slzph0000gn/T/d20260903-16185-io0mvv/opencv2.framework/Versions/A/Headers/core/cuda/emulation.hpp  
+     inflating: /var/folders/s6/5hzmn6lx4dz5nxs7k_0slzph0000gn/T/d20260903-16185-io0mvv/opencv2.framework/Versions/A/Headers/core/cuda/filters.hpp  
+     inflating: /var/folders/s6/5hzmn6lx4dz5nxs7k_0slzph0000gn/T/d20260903-16185-io0mvv/opencv2.framework/Versions/A/Headers/core/cuda/funcattrib.hpp  
+     inflating: /var/folders/s6/5hzmn6lx4dz5nxs7k_0slzph0000gn/T/d20260903-16185-io0mvv/opencv2.framework/Versions/A/Headers/core/cuda/functional.hpp  
+     inflating: /var/folders/s6/5hzmn6lx4dz5nxs7k_0slzph0000gn/T/d20260903-16185-io0mvv/opencv2.framework/Versions/A/Headers/core/cuda/limits.hpp  
+     inflating: /var/folders/s6/5hzmn6lx4dz5nxs7k_0slzph0000gn/T/d20260903-16185-io0mvv/opencv2.framework/Versions/A/Headers/core/cuda/reduce.hpp  
+     inflating: /var/folders/s6/5hzmn6lx4dz5nxs7k_0slzph0000gn/T/d20260903-16185-io0mvv/opencv2.framework/Versions/A/Headers/core/cuda/saturate_cast.hpp  
+     inflating: /var/folders/s6/5hzmn6lx4dz5nxs7k_0slzph0000gn/T/d20260903-16185-io0mvv/opencv2.framework/Versions/A/Headers/core/cuda/scan.hpp  
+     inflating: /var/folders/s6/5hzmn6lx4dz5nxs7k_0slzph0000gn/T/d20260903-16185-io0mvv/opencv2.framework/Versions/A/Headers/core/cuda/simd_functions.hpp  
+     inflating: /var/folders/s6/5hzmn6lx4dz5nxs7k_0slzph0000gn/T/d20260903-16185-io0mvv/opencv2.framework/Versions/A/Headers/core/cuda/transform.hpp  
+     inflating: /var/folders/s6/5hzmn6lx4dz5nxs7k_0slzph0000gn/T/d20260903-16185-io0mvv/opencv2.framework/Versions/A/Headers/core/cuda/type_traits.hpp  
+     inflating: /var/folders/s6/5hzmn6lx4dz5nxs7k_0slzph0000gn/T/d20260903-16185-io0mvv/opencv2.framework/Versions/A/Headers/core/cuda/utility.hpp  
+     inflating: /var/folders/s6/5hzmn6lx4dz5nxs7k_0slzph0000gn/T/d20260903-16185-io0mvv/opencv2.framework/Versions/A/Headers/core/cuda/vec_distance.hpp  
+     inflating: /var/folders/s6/5hzmn6lx4dz5nxs7k_0slzph0000gn/T/d20260903-16185-io0mvv/opencv2.framework/Versions/A/Headers/core/cuda/vec_math.hpp  
+     inflating: /var/folders/s6/5hzmn6lx4dz5nxs7k_0slzph0000gn/T/d20260903-16185-io0mvv/opencv2.framework/Versions/A/Headers/core/cuda/vec_traits.hpp  
+     inflating: /var/folders/s6/5hzmn6lx4dz5nxs7k_0slzph0000gn/T/d20260903-16185-io0mvv/opencv2.framework/Versions/A/Headers/core/cuda/warp.hpp  
+     inflating: /var/folders/s6/5hzmn6lx4dz5nxs7k_0slzph0000gn/T/d20260903-16185-io0mvv/opencv2.framework/Versions/A/Headers/core/cuda/warp_reduce.hpp  
+     inflating: /var/folders/s6/5hzmn6lx4dz5nxs7k_0slzph0000gn/T/d20260903-16185-io0mvv/opencv2.framework/Versions/A/Headers/core/cuda/warp_shuffle.hpp  
+     inflating: /var/folders/s6/5hzmn6lx4dz5nxs7k_0slzph0000gn/T/d20260903-16185-io0mvv/opencv2.framework/Versions/A/Headers/core/cuda.hpp  
+     inflating: /var/folders/s6/5hzmn6lx4dz5nxs7k_0slzph0000gn/T/d20260903-16185-io0mvv/opencv2.framework/Versions/A/Headers/core/cuda.inl.hpp  
+     inflating: /var/folders/s6/5hzmn6lx4dz5nxs7k_0slzph0000gn/T/d20260903-16185-io0mvv/opencv2.framework/Versions/A/Headers/core/cuda_stream_accessor.hpp  
+     inflating: /var/folders/s6/5hzmn6lx4dz5nxs7k_0slzph0000gn/T/d20260903-16185-io0mvv/opencv2.framework/Versions/A/Headers/core/cuda_types.hpp  
+     inflating: /var/folders/s6/5hzmn6lx4dz5nxs7k_0slzph0000gn/T/d20260903-16185-io0mvv/opencv2.framework/Versions/A/Headers/core/cv_cpu_dispatch.h  
+     inflating: /var/folders/s6/5hzmn6lx4dz5nxs7k_0slzph0000gn/T/d20260903-16185-io0mvv/opencv2.framework/Versions/A/Headers/core/cv_cpu_helper.h  
+     inflating: /var/folders/s6/5hzmn6lx4dz5nxs7k_0slzph0000gn/T/d20260903-16185-io0mvv/opencv2.framework/Versions/A/Headers/core/cvdef.h  
+     inflating: /var/folders/s6/5hzmn6lx4dz5nxs7k_0slzph0000gn/T/d20260903-16185-io0mvv/opencv2.framework/Versions/A/Headers/core/cvstd.hpp  
+     inflating: /var/folders/s6/5hzmn6lx4dz5nxs7k_0slzph0000gn/T/d20260903-16185-io0mvv/opencv2.framework/Versions/A/Headers/core/cvstd.inl.hpp  
+     inflating: /var/folders/s6/5hzmn6lx4dz5nxs7k_0slzph0000gn/T/d20260903-16185-io0mvv/opencv2.framework/Versions/A/Headers/core/directx.hpp  
+     inflating: /var/folders/s6/5hzmn6lx4dz5nxs7k_0slzph0000gn/T/d20260903-16185-io0mvv/opencv2.framework/Versions/A/Headers/core/eigen.hpp  
+     inflating: /var/folders/s6/5hzmn6lx4dz5nxs7k_0slzph0000gn/T/d20260903-16185-io0mvv/opencv2.framework/Versions/A/Headers/core/fast_math.hpp  
+      creating: /var/folders/s6/5hzmn6lx4dz5nxs7k_0slzph0000gn/T/d20260903-16185-io0mvv/opencv2.framework/Versions/A/Headers/core/hal
+     inflating: /var/folders/s6/5hzmn6lx4dz5nxs7k_0slzph0000gn/T/d20260903-16185-io0mvv/opencv2.framework/Versions/A/Headers/core/hal/hal.hpp  
+     inflating: /var/folders/s6/5hzmn6lx4dz5nxs7k_0slzph0000gn/T/d20260903-16185-io0mvv/opencv2.framework/Versions/A/Headers/core/hal/interface.h  
+     inflating: /var/folders/s6/5hzmn6lx4dz5nxs7k_0slzph0000gn/T/d20260903-16185-io0mvv/opencv2.framework/Versions/A/Headers/core/hal/intrin.hpp  
+     inflating: /var/folders/s6/5hzmn6lx4dz5nxs7k_0slzph0000gn/T/d20260903-16185-io0mvv/opencv2.framework/Versions/A/Headers/core/hal/intrin_avx.hpp  
+     inflating: /var/folders/s6/5hzmn6lx4dz5nxs7k_0slzph0000gn/T/d20260903-16185-io0mvv/opencv2.framework/Versions/A/Headers/core/hal/intrin_cpp.hpp  
+     inflating: /var/folders/s6/5hzmn6lx4dz5nxs7k_0slzph0000gn/T/d20260903-16185-io0mvv/opencv2.framework/Versions/A/Headers/core/hal/intrin_forward.hpp  
+     inflating: /var/folders/s6/5hzmn6lx4dz5nxs7k_0slzph0000gn/T/d20260903-16185-io0mvv/opencv2.framework/Versions/A/Headers/core/hal/intrin_neon.hpp  
+     inflating: /var/folders/s6/5hzmn6lx4dz5nxs7k_0slzph0000gn/T/d20260903-16185-io0mvv/opencv2.framework/Versions/A/Headers/core/hal/intrin_sse.hpp  
+     inflating: /var/folders/s6/5hzmn6lx4dz5nxs7k_0slzph0000gn/T/d20260903-16185-io0mvv/opencv2.framework/Versions/A/Headers/core/hal/intrin_sse_em.hpp  
+     inflating: /var/folders/s6/5hzmn6lx4dz5nxs7k_0slzph0000gn/T/d20260903-16185-io0mvv/opencv2.framework/Versions/A/Headers/core/hal/intrin_vsx.hpp  
+     inflating: /var/folders/s6/5hzmn6lx4dz5nxs7k_0slzph0000gn/T/d20260903-16185-io0mvv/opencv2.framework/Versions/A/Headers/core/ippasync.hpp  
+     inflating: /var/folders/s6/5hzmn6lx4dz5nxs7k_0slzph0000gn/T/d20260903-16185-io0mvv/opencv2.framework/Versions/A/Headers/core/mat.hpp  
+     inflating: /var/folders/s6/5hzmn6lx4dz5nxs7k_0slzph0000gn/T/d20260903-16185-io0mvv/opencv2.framework/Versions/A/Headers/core/mat.inl.hpp  
+     inflating: /var/folders/s6/5hzmn6lx4dz5nxs7k_0slzph0000gn/T/d20260903-16185-io0mvv/opencv2.framework/Versions/A/Headers/core/matx.hpp  
+     inflating: /var/folders/s6/5hzmn6lx4dz5nxs7k_0slzph0000gn/T/d20260903-16185-io0mvv/opencv2.framework/Versions/A/Headers/core/neon_utils.hpp  
+     inflating: /var/folders/s6/5hzmn6lx4dz5nxs7k_0slzph0000gn/T/d20260903-16185-io0mvv/opencv2.framework/Versions/A/Headers/core/ocl.hpp  
+     inflating: /var/folders/s6/5hzmn6lx4dz5nxs7k_0slzph0000gn/T/d20260903-16185-io0mvv/opencv2.framework/Versions/A/Headers/core/ocl_genbase.hpp  
+      creating: /var/folders/s6/5hzmn6lx4dz5nxs7k_0slzph0000gn/T/d20260903-16185-io0mvv/opencv2.framework/Versions/A/Headers/core/opencl
+     inflating: /var/folders/s6/5hzmn6lx4dz5nxs7k_0slzph0000gn/T/d20260903-16185-io0mvv/opencv2.framework/Versions/A/Headers/core/opencl/ocl_defs.hpp  
+     inflating: /var/folders/s6/5hzmn6lx4dz5nxs7k_0slzph0000gn/T/d20260903-16185-io0mvv/opencv2.framework/Versions/A/Headers/core/opencl/opencl_info.hpp  
+     inflating: /var/folders/s6/5hzmn6lx4dz5nxs7k_0slzph0000gn/T/d20260903-16185-io0mvv/opencv2.framework/Versions/A/Headers/core/opencl/opencl_svm.hpp  
+      creating: /var/folders/s6/5hzmn6lx4dz5nxs7k_0slzph0000gn/T/d20260903-16185-io0mvv/opencv2.framework/Versions/A/Headers/core/opencl/runtime
+      creating: /var/folders/s6/5hzmn6lx4dz5nxs7k_0slzph0000gn/T/d20260903-16185-io0mvv/opencv2.framework/Versions/A/Headers/core/opencl/runtime/autogenerated
+     inflating: /var/folders/s6/5hzmn6lx4dz5nxs7k_0slzph0000gn/T/d20260903-16185-io0mvv/opencv2.framework/Versions/A/Headers/core/opencl/runtime/autogenerated/opencl_clamdblas.hpp  
+     inflating: /var/folders/s6/5hzmn6lx4dz5nxs7k_0slzph0000gn/T/d20260903-16185-io0mvv/opencv2.framework/Versions/A/Headers/core/opencl/runtime/autogenerated/opencl_clamdfft.hpp  
+     inflating: /var/folders/s6/5hzmn6lx4dz5nxs7k_0slzph0000gn/T/d20260903-16185-io0mvv/opencv2.framework/Versions/A/Headers/core/opencl/runtime/autogenerated/opencl_core.hpp  
+     inflating: /var/folders/s6/5hzmn6lx4dz5nxs7k_0slzph0000gn/T/d20260903-16185-io0mvv/opencv2.framework/Versions/A/Headers/core/opencl/runtime/autogenerated/opencl_core_wrappers.hpp  
+     inflating: /var/folders/s6/5hzmn6lx4dz5nxs7k_0slzph0000gn/T/d20260903-16185-io0mvv/opencv2.framework/Versions/A/Headers/core/opencl/runtime/autogenerated/opencl_gl.hpp  
+     inflating: /var/folders/s6/5hzmn6lx4dz5nxs7k_0slzph0000gn/T/d20260903-16185-io0mvv/opencv2.framework/Versions/A/Headers/core/opencl/runtime/autogenerated/opencl_gl_wrappers.hpp  
+     inflating: /var/folders/s6/5hzmn6lx4dz5nxs7k_0slzph0000gn/T/d20260903-16185-io0mvv/opencv2.framework/Versions/A/Headers/core/opencl/runtime/opencl_clamdblas.hpp  
+     inflating: /var/folders/s6/5hzmn6lx4dz5nxs7k_0slzph0000gn/T/d20260903-16185-io0mvv/opencv2.framework/Versions/A/Headers/core/opencl/runtime/opencl_clamdfft.hpp  
+     inflating: /var/folders/s6/5hzmn6lx4dz5nxs7k_0slzph0000gn/T/d20260903-16185-io0mvv/opencv2.framework/Versions/A/Headers/core/opencl/runtime/opencl_core.hpp  
+     inflating: /var/folders/s6/5hzmn6lx4dz5nxs7k_0slzph0000gn/T/d20260903-16185-io0mvv/opencv2.framework/Versions/A/Headers/core/opencl/runtime/opencl_core_wrappers.hpp  
+     inflating: /var/folders/s6/5hzmn6lx4dz5nxs7k_0slzph0000gn/T/d20260903-16185-io0mvv/opencv2.framework/Versions/A/Headers/core/opencl/runtime/opencl_gl.hpp  
+     inflating: /var/folders/s6/5hzmn6lx4dz5nxs7k_0slzph0000gn/T/d20260903-16185-io0mvv/opencv2.framework/Versions/A/Headers/core/opencl/runtime/opencl_gl_wrappers.hpp  
+     inflating: /var/folders/s6/5hzmn6lx4dz5nxs7k_0slzph0000gn/T/d20260903-16185-io0mvv/opencv2.framework/Versions/A/Headers/core/opencl/runtime/opencl_svm_20.hpp  
+     inflating: /var/folders/s6/5hzmn6lx4dz5nxs7k_0slzph0000gn/T/d20260903-16185-io0mvv/opencv2.framework/Versions/A/Headers/core/opencl/runtime/opencl_svm_definitions.hpp  
+     inflating: /var/folders/s6/5hzmn6lx4dz5nxs7k_0slzph0000gn/T/d20260903-16185-io0mvv/opencv2.framework/Versions/A/Headers/core/opencl/runtime/opencl_svm_hsa_extension.hpp  
+     inflating: /var/folders/s6/5hzmn6lx4dz5nxs7k_0slzph0000gn/T/d20260903-16185-io0mvv/opencv2.framework/Versions/A/Headers/core/opengl.hpp  
+     inflating: /var/folders/s6/5hzmn6lx4dz5nxs7k_0slzph0000gn/T/d20260903-16185-io0mvv/opencv2.framework/Versions/A/Headers/core/operations.hpp  
+     inflating: /var/folders/s6/5hzmn6lx4dz5nxs7k_0slzph0000gn/T/d20260903-16185-io0mvv/opencv2.framework/Versions/A/Headers/core/optim.hpp  
+     inflating: /var/folders/s6/5hzmn6lx4dz5nxs7k_0slzph0000gn/T/d20260903-16185-io0mvv/opencv2.framework/Versions/A/Headers/core/ovx.hpp  
+     inflating: /var/folders/s6/5hzmn6lx4dz5nxs7k_0slzph0000gn/T/d20260903-16185-io0mvv/opencv2.framework/Versions/A/Headers/core/persistence.hpp  
+     inflating: /var/folders/s6/5hzmn6lx4dz5nxs7k_0slzph0000gn/T/d20260903-16185-io0mvv/opencv2.framework/Versions/A/Headers/core/ptr.inl.hpp  
+     inflating: /var/folders/s6/5hzmn6lx4dz5nxs7k_0slzph0000gn/T/d20260903-16185-io0mvv/opencv2.framework/Versions/A/Headers/core/saturate.hpp  
+     inflating: /var/folders/s6/5hzmn6lx4dz5nxs7k_0slzph0000gn/T/d20260903-16185-io0mvv/opencv2.framework/Versions/A/Headers/core/softfloat.hpp  
+     inflating: /var/folders/s6/5hzmn6lx4dz5nxs7k_0slzph0000gn/T/d20260903-16185-io0mvv/opencv2.framework/Versions/A/Headers/core/sse_utils.hpp  
+     inflating: /var/folders/s6/5hzmn6lx4dz5nxs7k_0slzph0000gn/T/d20260903-16185-io0mvv/opencv2.framework/Versions/A/Headers/core/traits.hpp  
+     inflating: /var/folders/s6/5hzmn6lx4dz5nxs7k_0slzph0000gn/T/d20260903-16185-io0mvv/opencv2.framework/Versions/A/Headers/core/types.hpp  
+     inflating: /var/folders/s6/5hzmn6lx4dz5nxs7k_0slzph0000gn/T/d20260903-16185-io0mvv/opencv2.framework/Versions/A/Headers/core/types_c.h  
+     inflating: /var/folders/s6/5hzmn6lx4dz5nxs7k_0slzph0000gn/T/d20260903-16185-io0mvv/opencv2.framework/Versions/A/Headers/core/utility.hpp  
+      creating: /var/folders/s6/5hzmn6lx4dz5nxs7k_0slzph0000gn/T/d20260903-16185-io0mvv/opencv2.framework/Versions/A/Headers/core/utils
+     inflating: /var/folders/s6/5hzmn6lx4dz5nxs7k_0slzph0000gn/T/d20260903-16185-io0mvv/opencv2.framework/Versions/A/Headers/core/utils/filesystem.hpp  
+     inflating: /var/folders/s6/5hzmn6lx4dz5nxs7k_0slzph0000gn/T/d20260903-16185-io0mvv/opencv2.framework/Versions/A/Headers/core/utils/logger.defines.hpp  
+     inflating: /var/folders/s6/5hzmn6lx4dz5nxs7k_0slzph0000gn/T/d20260903-16185-io0mvv/opencv2.framework/Versions/A/Headers/core/utils/logger.hpp  
+     inflating: /var/folders/s6/5hzmn6lx4dz5nxs7k_0slzph0000gn/T/d20260903-16185-io0mvv/opencv2.framework/Versions/A/Headers/core/utils/trace.hpp  
+     inflating: /var/folders/s6/5hzmn6lx4dz5nxs7k_0slzph0000gn/T/d20260903-16185-io0mvv/opencv2.framework/Versions/A/Headers/core/va_intel.hpp  
+     inflating: /var/folders/s6/5hzmn6lx4dz5nxs7k_0slzph0000gn/T/d20260903-16185-io0mvv/opencv2.framework/Versions/A/Headers/core/version.hpp  
+     inflating: /var/folders/s6/5hzmn6lx4dz5nxs7k_0slzph0000gn/T/d20260903-16185-io0mvv/opencv2.framework/Versions/A/Headers/core/vsx_utils.hpp  
+     inflating: /var/folders/s6/5hzmn6lx4dz5nxs7k_0slzph0000gn/T/d20260903-16185-io0mvv/opencv2.framework/Versions/A/Headers/core/wimage.hpp  
+     inflating: /var/folders/s6/5hzmn6lx4dz5nxs7k_0slzph0000gn/T/d20260903-16185-io0mvv/opencv2.framework/Versions/A/Headers/core.hpp  
+     inflating: /var/folders/s6/5hzmn6lx4dz5nxs7k_0slzph0000gn/T/d20260903-16185-io0mvv/opencv2.framework/Versions/A/Headers/cvconfig.h  
+      creating: /var/folders/s6/5hzmn6lx4dz5nxs7k_0slzph0000gn/T/d20260903-16185-io0mvv/opencv2.framework/Versions/A/Headers/dnn
+     inflating: /var/folders/s6/5hzmn6lx4dz5nxs7k_0slzph0000gn/T/d20260903-16185-io0mvv/opencv2.framework/Versions/A/Headers/dnn/all_layers.hpp  
+     inflating: /var/folders/s6/5hzmn6lx4dz5nxs7k_0slzph0000gn/T/d20260903-16185-io0mvv/opencv2.framework/Versions/A/Headers/dnn/dict.hpp  
+     inflating: /var/folders/s6/5hzmn6lx4dz5nxs7k_0slzph0000gn/T/d20260903-16185-io0mvv/opencv2.framework/Versions/A/Headers/dnn/dnn.hpp  
+     inflating: /var/folders/s6/5hzmn6lx4dz5nxs7k_0slzph0000gn/T/d20260903-16185-io0mvv/opencv2.framework/Versions/A/Headers/dnn/dnn.inl.hpp  
+     inflating: /var/folders/s6/5hzmn6lx4dz5nxs7k_0slzph0000gn/T/d20260903-16185-io0mvv/opencv2.framework/Versions/A/Headers/dnn/layer.details.hpp  
+     inflating: /var/folders/s6/5hzmn6lx4dz5nxs7k_0slzph0000gn/T/d20260903-16185-io0mvv/opencv2.framework/Versions/A/Headers/dnn/layer.hpp  
+     inflating: /var/folders/s6/5hzmn6lx4dz5nxs7k_0slzph0000gn/T/d20260903-16185-io0mvv/opencv2.framework/Versions/A/Headers/dnn/shape_utils.hpp  
+      creating: /var/folders/s6/5hzmn6lx4dz5nxs7k_0slzph0000gn/T/d20260903-16185-io0mvv/opencv2.framework/Versions/A/Headers/dnn/utils
+     inflating: /var/folders/s6/5hzmn6lx4dz5nxs7k_0slzph0000gn/T/d20260903-16185-io0mvv/opencv2.framework/Versions/A/Headers/dnn/utils/inference_engine.hpp  
+     inflating: /var/folders/s6/5hzmn6lx4dz5nxs7k_0slzph0000gn/T/d20260903-16185-io0mvv/opencv2.framework/Versions/A/Headers/dnn.hpp  
+      creating: /var/folders/s6/5hzmn6lx4dz5nxs7k_0slzph0000gn/T/d20260903-16185-io0mvv/opencv2.framework/Versions/A/Headers/features2d
+     inflating: /var/folders/s6/5hzmn6lx4dz5nxs7k_0slzph0000gn/T/d20260903-16185-io0mvv/opencv2.framework/Versions/A/Headers/features2d/features2d.hpp  
+      creating: /var/folders/s6/5hzmn6lx4dz5nxs7k_0slzph0000gn/T/d20260903-16185-io0mvv/opencv2.framework/Versions/A/Headers/features2d/hal
+     inflating: /var/folders/s6/5hzmn6lx4dz5nxs7k_0slzph0000gn/T/d20260903-16185-io0mvv/opencv2.framework/Versions/A/Headers/features2d/hal/interface.h  
+     inflating: /var/folders/s6/5hzmn6lx4dz5nxs7k_0slzph0000gn/T/d20260903-16185-io0mvv/opencv2.framework/Versions/A/Headers/features2d.hpp  
+      creating: /var/folders/s6/5hzmn6lx4dz5nxs7k_0slzph0000gn/T/d20260903-16185-io0mvv/opencv2.framework/Versions/A/Headers/flann
+     inflating: /var/folders/s6/5hzmn6lx4dz5nxs7k_0slzph0000gn/T/d20260903-16185-io0mvv/opencv2.framework/Versions/A/Headers/flann/all_indices.h  
+     inflating: /var/folders/s6/5hzmn6lx4dz5nxs7k_0slzph0000gn/T/d20260903-16185-io0mvv/opencv2.framework/Versions/A/Headers/flann/allocator.h  
+     inflating: /var/folders/s6/5hzmn6lx4dz5nxs7k_0slzph0000gn/T/d20260903-16185-io0mvv/opencv2.framework/Versions/A/Headers/flann/any.h  
+     inflating: /var/folders/s6/5hzmn6lx4dz5nxs7k_0slzph0000gn/T/d20260903-16185-io0mvv/opencv2.framework/Versions/A/Headers/flann/autotuned_index.h  
+     inflating: /var/folders/s6/5hzmn6lx4dz5nxs7k_0slzph0000gn/T/d20260903-16185-io0mvv/opencv2.framework/Versions/A/Headers/flann/composite_index.h  
+     inflating: /var/folders/s6/5hzmn6lx4dz5nxs7k_0slzph0000gn/T/d20260903-16185-io0mvv/opencv2.framework/Versions/A/Headers/flann/config.h  
+     inflating: /var/folders/s6/5hzmn6lx4dz5nxs7k_0slzph0000gn/T/d20260903-16185-io0mvv/opencv2.framework/Versions/A/Headers/flann/defines.h  
+     inflating: /var/folders/s6/5hzmn6lx4dz5nxs7k_0slzph0000gn/T/d20260903-16185-io0mvv/opencv2.framework/Versions/A/Headers/flann/dist.h  
+     inflating: /var/folders/s6/5hzmn6lx4dz5nxs7k_0slzph0000gn/T/d20260903-16185-io0mvv/opencv2.framework/Versions/A/Headers/flann/dummy.h  
+     inflating: /var/folders/s6/5hzmn6lx4dz5nxs7k_0slzph0000gn/T/d20260903-16185-io0mvv/opencv2.framework/Versions/A/Headers/flann/dynamic_bitset.h  
+     inflating: /var/folders/s6/5hzmn6lx4dz5nxs7k_0slzph0000gn/T/d20260903-16185-io0mvv/opencv2.framework/Versions/A/Headers/flann/flann.hpp  
+     inflating: /var/folders/s6/5hzmn6lx4dz5nxs7k_0slzph0000gn/T/d20260903-16185-io0mvv/opencv2.framework/Versions/A/Headers/flann/flann_base.hpp  
+     inflating: /var/folders/s6/5hzmn6lx4dz5nxs7k_0slzph0000gn/T/d20260903-16185-io0mvv/opencv2.framework/Versions/A/Headers/flann/general.h  
+     inflating: /var/folders/s6/5hzmn6lx4dz5nxs7k_0slzph0000gn/T/d20260903-16185-io0mvv/opencv2.framework/Versions/A/Headers/flann/ground_truth.h  
+     inflating: /var/folders/s6/5hzmn6lx4dz5nxs7k_0slzph0000gn/T/d20260903-16185-io0mvv/opencv2.framework/Versions/A/Headers/flann/hdf5.h  
+     inflating: /var/folders/s6/5hzmn6lx4dz5nxs7k_0slzph0000gn/T/d20260903-16185-io0mvv/opencv2.framework/Versions/A/Headers/flann/heap.h  
+     inflating: /var/folders/s6/5hzmn6lx4dz5nxs7k_0slzph0000gn/T/d20260903-16185-io0mvv/opencv2.framework/Versions/A/Headers/flann/hierarchical_clustering_index.h  
+     inflating: /var/folders/s6/5hzmn6lx4dz5nxs7k_0slzph0000gn/T/d20260903-16185-io0mvv/opencv2.framework/Versions/A/Headers/flann/index_testing.h  
+     inflating: /var/folders/s6/5hzmn6lx4dz5nxs7k_0slzph0000gn/T/d20260903-16185-io0mvv/opencv2.framework/Versions/A/Headers/flann/kdtree_index.h  
+     inflating: /var/folders/s6/5hzmn6lx4dz5nxs7k_0slzph0000gn/T/d20260903-16185-io0mvv/opencv2.framework/Versions/A/Headers/flann/kdtree_single_index.h  
+     inflating: /var/folders/s6/5hzmn6lx4dz5nxs7k_0slzph0000gn/T/d20260903-16185-io0mvv/opencv2.framework/Versions/A/Headers/flann/kmeans_index.h  
+     inflating: /var/folders/s6/5hzmn6lx4dz5nxs7k_0slzph0000gn/T/d20260903-16185-io0mvv/opencv2.framework/Versions/A/Headers/flann/linear_index.h  
+     inflating: /var/folders/s6/5hzmn6lx4dz5nxs7k_0slzph0000gn/T/d20260903-16185-io0mvv/opencv2.framework/Versions/A/Headers/flann/logger.h  
+     inflating: /var/folders/s6/5hzmn6lx4dz5nxs7k_0slzph0000gn/T/d20260903-16185-io0mvv/opencv2.framework/Versions/A/Headers/flann/lsh_index.h  
+     inflating: /var/folders/s6/5hzmn6lx4dz5nxs7k_0slzph0000gn/T/d20260903-16185-io0mvv/opencv2.framework/Versions/A/Headers/flann/lsh_table.h  
+     inflating: /var/folders/s6/5hzmn6lx4dz5nxs7k_0slzph0000gn/T/d20260903-16185-io0mvv/opencv2.framework/Versions/A/Headers/flann/matrix.h  
+     inflating: /var/folders/s6/5hzmn6lx4dz5nxs7k_0slzph0000gn/T/d20260903-16185-io0mvv/opencv2.framework/Versions/A/Headers/flann/miniflann.hpp  
+     inflating: /var/folders/s6/5hzmn6lx4dz5nxs7k_0slzph0000gn/T/d20260903-16185-io0mvv/opencv2.framework/Versions/A/Headers/flann/nn_index.h  
+     inflating: /var/folders/s6/5hzmn6lx4dz5nxs7k_0slzph0000gn/T/d20260903-16185-io0mvv/opencv2.framework/Versions/A/Headers/flann/object_factory.h  
+     inflating: /var/folders/s6/5hzmn6lx4dz5nxs7k_0slzph0000gn/T/d20260903-16185-io0mvv/opencv2.framework/Versions/A/Headers/flann/params.h  
+     inflating: /var/folders/s6/5hzmn6lx4dz5nxs7k_0slzph0000gn/T/d20260903-16185-io0mvv/opencv2.framework/Versions/A/Headers/flann/random.h  
+     inflating: /var/folders/s6/5hzmn6lx4dz5nxs7k_0slzph0000gn/T/d20260903-16185-io0mvv/opencv2.framework/Versions/A/Headers/flann/result_set.h  
+     inflating: /var/folders/s6/5hzmn6lx4dz5nxs7k_0slzph0000gn/T/d20260903-16185-io0mvv/opencv2.framework/Versions/A/Headers/flann/sampling.h  
+     inflating: /var/folders/s6/5hzmn6lx4dz5nxs7k_0slzph0000gn/T/d20260903-16185-io0mvv/opencv2.framework/Versions/A/Headers/flann/saving.h  
+     inflating: /var/folders/s6/5hzmn6lx4dz5nxs7k_0slzph0000gn/T/d20260903-16185-io0mvv/opencv2.framework/Versions/A/Headers/flann/simplex_downhill.h  
+     inflating: /var/folders/s6/5hzmn6lx4dz5nxs7k_0slzph0000gn/T/d20260903-16185-io0mvv/opencv2.framework/Versions/A/Headers/flann/timer.h  
+     inflating: /var/folders/s6/5hzmn6lx4dz5nxs7k_0slzph0000gn/T/d20260903-16185-io0mvv/opencv2.framework/Versions/A/Headers/flann.hpp  
+      creating: /var/folders/s6/5hzmn6lx4dz5nxs7k_0slzph0000gn/T/d20260903-16185-io0mvv/opencv2.framework/Versions/A/Headers/highgui
+     inflating: /var/folders/s6/5hzmn6lx4dz5nxs7k_0slzph0000gn/T/d20260903-16185-io0mvv/opencv2.framework/Versions/A/Headers/highgui/highgui.hpp  
+     inflating: /var/folders/s6/5hzmn6lx4dz5nxs7k_0slzph0000gn/T/d20260903-16185-io0mvv/opencv2.framework/Versions/A/Headers/highgui/highgui_c.h  
+     inflating: /var/folders/s6/5hzmn6lx4dz5nxs7k_0slzph0000gn/T/d20260903-16185-io0mvv/opencv2.framework/Versions/A/Headers/highgui.hpp  
+      creating: /var/folders/s6/5hzmn6lx4dz5nxs7k_0slzph0000gn/T/d20260903-16185-io0mvv/opencv2.framework/Versions/A/Headers/imgcodecs
+     inflating: /var/folders/s6/5hzmn6lx4dz5nxs7k_0slzph0000gn/T/d20260903-16185-io0mvv/opencv2.framework/Versions/A/Headers/imgcodecs/imgcodecs.hpp  
+     inflating: /var/folders/s6/5hzmn6lx4dz5nxs7k_0slzph0000gn/T/d20260903-16185-io0mvv/opencv2.framework/Versions/A/Headers/imgcodecs/imgcodecs_c.h  
+     inflating: /var/folders/s6/5hzmn6lx4dz5nxs7k_0slzph0000gn/T/d20260903-16185-io0mvv/opencv2.framework/Versions/A/Headers/imgcodecs/ios.h  
+     inflating: /var/folders/s6/5hzmn6lx4dz5nxs7k_0slzph0000gn/T/d20260903-16185-io0mvv/opencv2.framework/Versions/A/Headers/imgcodecs.hpp  
+      creating: /var/folders/s6/5hzmn6lx4dz5nxs7k_0slzph0000gn/T/d20260903-16185-io0mvv/opencv2.framework/Versions/A/Headers/imgproc
+      creating: /var/folders/s6/5hzmn6lx4dz5nxs7k_0slzph0000gn/T/d20260903-16185-io0mvv/opencv2.framework/Versions/A/Headers/imgproc/detail
+     inflating: /var/folders/s6/5hzmn6lx4dz5nxs7k_0slzph0000gn/T/d20260903-16185-io0mvv/opencv2.framework/Versions/A/Headers/imgproc/detail/distortion_model.hpp  
+      creating: /var/folders/s6/5hzmn6lx4dz5nxs7k_0slzph0000gn/T/d20260903-16185-io0mvv/opencv2.framework/Versions/A/Headers/imgproc/hal
+     inflating: /var/folders/s6/5hzmn6lx4dz5nxs7k_0slzph0000gn/T/d20260903-16185-io0mvv/opencv2.framework/Versions/A/Headers/imgproc/hal/hal.hpp  
+     inflating: /var/folders/s6/5hzmn6lx4dz5nxs7k_0slzph0000gn/T/d20260903-16185-io0mvv/opencv2.framework/Versions/A/Headers/imgproc/hal/interface.h  
+     inflating: /var/folders/s6/5hzmn6lx4dz5nxs7k_0slzph0000gn/T/d20260903-16185-io0mvv/opencv2.framework/Versions/A/Headers/imgproc/imgproc.hpp  
+     inflating: /var/folders/s6/5hzmn6lx4dz5nxs7k_0slzph0000gn/T/d20260903-16185-io0mvv/opencv2.framework/Versions/A/Headers/imgproc/imgproc_c.h  
+     inflating: /var/folders/s6/5hzmn6lx4dz5nxs7k_0slzph0000gn/T/d20260903-16185-io0mvv/opencv2.framework/Versions/A/Headers/imgproc/types_c.h  
+     inflating: /var/folders/s6/5hzmn6lx4dz5nxs7k_0slzph0000gn/T/d20260903-16185-io0mvv/opencv2.framework/Versions/A/Headers/imgproc.hpp  
+      creating: /var/folders/s6/5hzmn6lx4dz5nxs7k_0slzph0000gn/T/d20260903-16185-io0mvv/opencv2.framework/Versions/A/Headers/ml
+     inflating: /var/folders/s6/5hzmn6lx4dz5nxs7k_0slzph0000gn/T/d20260903-16185-io0mvv/opencv2.framework/Versions/A/Headers/ml/ml.hpp  
+     inflating: /var/folders/s6/5hzmn6lx4dz5nxs7k_0slzph0000gn/T/d20260903-16185-io0mvv/opencv2.framework/Versions/A/Headers/ml/ml.inl.hpp  
+     inflating: /var/folders/s6/5hzmn6lx4dz5nxs7k_0slzph0000gn/T/d20260903-16185-io0mvv/opencv2.framework/Versions/A/Headers/ml.hpp  
+      creating: /var/folders/s6/5hzmn6lx4dz5nxs7k_0slzph0000gn/T/d20260903-16185-io0mvv/opencv2.framework/Versions/A/Headers/objdetect
+     inflating: /var/folders/s6/5hzmn6lx4dz5nxs7k_0slzph0000gn/T/d20260903-16185-io0mvv/opencv2.framework/Versions/A/Headers/objdetect/detection_based_tracker.hpp  
+     inflating: /var/folders/s6/5hzmn6lx4dz5nxs7k_0slzph0000gn/T/d20260903-16185-io0mvv/opencv2.framework/Versions/A/Headers/objdetect/objdetect.hpp  
+     inflating: /var/folders/s6/5hzmn6lx4dz5nxs7k_0slzph0000gn/T/d20260903-16185-io0mvv/opencv2.framework/Versions/A/Headers/objdetect/objdetect_c.h  
+     inflating: /var/folders/s6/5hzmn6lx4dz5nxs7k_0slzph0000gn/T/d20260903-16185-io0mvv/opencv2.framework/Versions/A/Headers/objdetect.hpp  
+     inflating: /var/folders/s6/5hzmn6lx4dz5nxs7k_0slzph0000gn/T/d20260903-16185-io0mvv/opencv2.framework/Versions/A/Headers/opencv.hpp  
+     inflating: /var/folders/s6/5hzmn6lx4dz5nxs7k_0slzph0000gn/T/d20260903-16185-io0mvv/opencv2.framework/Versions/A/Headers/opencv_modules.hpp  
+      creating: /var/folders/s6/5hzmn6lx4dz5nxs7k_0slzph0000gn/T/d20260903-16185-io0mvv/opencv2.framework/Versions/A/Headers/photo
+     inflating: /var/folders/s6/5hzmn6lx4dz5nxs7k_0slzph0000gn/T/d20260903-16185-io0mvv/opencv2.framework/Versions/A/Headers/photo/cuda.hpp  
+     inflating: /var/folders/s6/5hzmn6lx4dz5nxs7k_0slzph0000gn/T/d20260903-16185-io0mvv/opencv2.framework/Versions/A/Headers/photo/photo.hpp  
+     inflating: /var/folders/s6/5hzmn6lx4dz5nxs7k_0slzph0000gn/T/d20260903-16185-io0mvv/opencv2.framework/Versions/A/Headers/photo/photo_c.h  
+     inflating: /var/folders/s6/5hzmn6lx4dz5nxs7k_0slzph0000gn/T/d20260903-16185-io0mvv/opencv2.framework/Versions/A/Headers/photo.hpp  
+      creating: /var/folders/s6/5hzmn6lx4dz5nxs7k_0slzph0000gn/T/d20260903-16185-io0mvv/opencv2.framework/Versions/A/Headers/shape
+     inflating: /var/folders/s6/5hzmn6lx4dz5nxs7k_0slzph0000gn/T/d20260903-16185-io0mvv/opencv2.framework/Versions/A/Headers/shape/emdL1.hpp  
+     inflating: /var/folders/s6/5hzmn6lx4dz5nxs7k_0slzph0000gn/T/d20260903-16185-io0mvv/opencv2.framework/Versions/A/Headers/shape/hist_cost.hpp  
+     inflating: /var/folders/s6/5hzmn6lx4dz5nxs7k_0slzph0000gn/T/d20260903-16185-io0mvv/opencv2.framework/Versions/A/Headers/shape/shape.hpp  
+     inflating: /var/folders/s6/5hzmn6lx4dz5nxs7k_0slzph0000gn/T/d20260903-16185-io0mvv/opencv2.framework/Versions/A/Headers/shape/shape_distance.hpp  
+     inflating: /var/folders/s6/5hzmn6lx4dz5nxs7k_0slzph0000gn/T/d20260903-16185-io0mvv/opencv2.framework/Versions/A/Headers/shape/shape_transformer.hpp  
+     inflating: /var/folders/s6/5hzmn6lx4dz5nxs7k_0slzph0000gn/T/d20260903-16185-io0mvv/opencv2.framework/Versions/A/Headers/shape.hpp  
+      creating: /var/folders/s6/5hzmn6lx4dz5nxs7k_0slzph0000gn/T/d20260903-16185-io0mvv/opencv2.framework/Versions/A/Headers/stitching
+      creating: /var/folders/s6/5hzmn6lx4dz5nxs7k_0slzph0000gn/T/d20260903-16185-io0mvv/opencv2.framework/Versions/A/Headers/stitching/detail
+     inflating: /var/folders/s6/5hzmn6lx4dz5nxs7k_0slzph0000gn/T/d20260903-16185-io0mvv/opencv2.framework/Versions/A/Headers/stitching/detail/autocalib.hpp  
+     inflating: /var/folders/s6/5hzmn6lx4dz5nxs7k_0slzph0000gn/T/d20260903-16185-io0mvv/opencv2.framework/Versions/A/Headers/stitching/detail/blenders.hpp  
+     inflating: /var/folders/s6/5hzmn6lx4dz5nxs7k_0slzph0000gn/T/d20260903-16185-io0mvv/opencv2.framework/Versions/A/Headers/stitching/detail/camera.hpp  
+     inflating: /var/folders/s6/5hzmn6lx4dz5nxs7k_0slzph0000gn/T/d20260903-16185-io0mvv/opencv2.framework/Versions/A/Headers/stitching/detail/exposure_compensate.hpp  
+     inflating: /var/folders/s6/5hzmn6lx4dz5nxs7k_0slzph0000gn/T/d20260903-16185-io0mvv/opencv2.framework/Versions/A/Headers/stitching/detail/matchers.hpp  
+     inflating: /var/folders/s6/5hzmn6lx4dz5nxs7k_0slzph0000gn/T/d20260903-16185-io0mvv/opencv2.framework/Versions/A/Headers/stitching/detail/motion_estimators.hpp  
+     inflating: /var/folders/s6/5hzmn6lx4dz5nxs7k_0slzph0000gn/T/d20260903-16185-io0mvv/opencv2.framework/Versions/A/Headers/stitching/detail/seam_finders.hpp  
+     inflating: /var/folders/s6/5hzmn6lx4dz5nxs7k_0slzph0000gn/T/d20260903-16185-io0mvv/opencv2.framework/Versions/A/Headers/stitching/detail/timelapsers.hpp  
+     inflating: /var/folders/s6/5hzmn6lx4dz5nxs7k_0slzph0000gn/T/d20260903-16185-io0mvv/opencv2.framework/Versions/A/Headers/stitching/detail/util.hpp  
+     inflating: /var/folders/s6/5hzmn6lx4dz5nxs7k_0slzph0000gn/T/d20260903-16185-io0mvv/opencv2.framework/Versions/A/Headers/stitching/detail/util_inl.hpp  
+     inflating: /var/folders/s6/5hzmn6lx4dz5nxs7k_0slzph0000gn/T/d20260903-16185-io0mvv/opencv2.framework/Versions/A/Headers/stitching/detail/warpers.hpp  
+     inflating: /var/folders/s6/5hzmn6lx4dz5nxs7k_0slzph0000gn/T/d20260903-16185-io0mvv/opencv2.framework/Versions/A/Headers/stitching/detail/warpers_inl.hpp  
+     inflating: /var/folders/s6/5hzmn6lx4dz5nxs7k_0slzph0000gn/T/d20260903-16185-io0mvv/opencv2.framework/Versions/A/Headers/stitching/warpers.hpp  
+     inflating: /var/folders/s6/5hzmn6lx4dz5nxs7k_0slzph0000gn/T/d20260903-16185-io0mvv/opencv2.framework/Versions/A/Headers/stitching.hpp  
+      creating: /var/folders/s6/5hzmn6lx4dz5nxs7k_0slzph0000gn/T/d20260903-16185-io0mvv/opencv2.framework/Versions/A/Headers/video
+     inflating: /var/folders/s6/5hzmn6lx4dz5nxs7k_0slzph0000gn/T/d20260903-16185-io0mvv/opencv2.framework/Versions/A/Headers/video/background_segm.hpp  
+     inflating: /var/folders/s6/5hzmn6lx4dz5nxs7k_0slzph0000gn/T/d20260903-16185-io0mvv/opencv2.framework/Versions/A/Headers/video/tracking.hpp  
+     inflating: /var/folders/s6/5hzmn6lx4dz5nxs7k_0slzph0000gn/T/d20260903-16185-io0mvv/opencv2.framework/Versions/A/Headers/video/tracking_c.h  
+     inflating: /var/folders/s6/5hzmn6lx4dz5nxs7k_0slzph0000gn/T/d20260903-16185-io0mvv/opencv2.framework/Versions/A/Headers/video/video.hpp  
+     inflating: /var/folders/s6/5hzmn6lx4dz5nxs7k_0slzph0000gn/T/d20260903-16185-io0mvv/opencv2.framework/Versions/A/Headers/video.hpp  
+      creating: /var/folders/s6/5hzmn6lx4dz5nxs7k_0slzph0000gn/T/d20260903-16185-io0mvv/opencv2.framework/Versions/A/Headers/videoio
+     inflating: /var/folders/s6/5hzmn6lx4dz5nxs7k_0slzph0000gn/T/d20260903-16185-io0mvv/opencv2.framework/Versions/A/Headers/videoio/cap_ios.h  
+     inflating: /var/folders/s6/5hzmn6lx4dz5nxs7k_0slzph0000gn/T/d20260903-16185-io0mvv/opencv2.framework/Versions/A/Headers/videoio/registry.hpp  
+     inflating: /var/folders/s6/5hzmn6lx4dz5nxs7k_0slzph0000gn/T/d20260903-16185-io0mvv/opencv2.framework/Versions/A/Headers/videoio/videoio.hpp  
+     inflating: /var/folders/s6/5hzmn6lx4dz5nxs7k_0slzph0000gn/T/d20260903-16185-io0mvv/opencv2.framework/Versions/A/Headers/videoio/videoio_c.h  
+     inflating: /var/folders/s6/5hzmn6lx4dz5nxs7k_0slzph0000gn/T/d20260903-16185-io0mvv/opencv2.framework/Versions/A/Headers/videoio.hpp  
+      creating: /var/folders/s6/5hzmn6lx4dz5nxs7k_0slzph0000gn/T/d20260903-16185-io0mvv/opencv2.framework/Versions/A/Headers/videostab
+     inflating: /var/folders/s6/5hzmn6lx4dz5nxs7k_0slzph0000gn/T/d20260903-16185-io0mvv/opencv2.framework/Versions/A/Headers/videostab/deblurring.hpp  
+     inflating: /var/folders/s6/5hzmn6lx4dz5nxs7k_0slzph0000gn/T/d20260903-16185-io0mvv/opencv2.framework/Versions/A/Headers/videostab/fast_marching.hpp  
+     inflating: /var/folders/s6/5hzmn6lx4dz5nxs7k_0slzph0000gn/T/d20260903-16185-io0mvv/opencv2.framework/Versions/A/Headers/videostab/fast_marching_inl.hpp  
+     inflating: /var/folders/s6/5hzmn6lx4dz5nxs7k_0slzph0000gn/T/d20260903-16185-io0mvv/opencv2.framework/Versions/A/Headers/videostab/frame_source.hpp  
+     inflating: /var/folders/s6/5hzmn6lx4dz5nxs7k_0slzph0000gn/T/d20260903-16185-io0mvv/opencv2.framework/Versions/A/Headers/videostab/global_motion.hpp  
+     inflating: /var/folders/s6/5hzmn6lx4dz5nxs7k_0slzph0000gn/T/d20260903-16185-io0mvv/opencv2.framework/Versions/A/Headers/videostab/inpainting.hpp  
+     inflating: /var/folders/s6/5hzmn6lx4dz5nxs7k_0slzph0000gn/T/d20260903-16185-io0mvv/opencv2.framework/Versions/A/Headers/videostab/log.hpp  
+     inflating: /var/folders/s6/5hzmn6lx4dz5nxs7k_0slzph0000gn/T/d20260903-16185-io0mvv/opencv2.framework/Versions/A/Headers/videostab/motion_core.hpp  
+     inflating: /var/folders/s6/5hzmn6lx4dz5nxs7k_0slzph0000gn/T/d20260903-16185-io0mvv/opencv2.framework/Versions/A/Headers/videostab/motion_stabilizing.hpp  
+     inflating: /var/folders/s6/5hzmn6lx4dz5nxs7k_0slzph0000gn/T/d20260903-16185-io0mvv/opencv2.framework/Versions/A/Headers/videostab/optical_flow.hpp  
+     inflating: /var/folders/s6/5hzmn6lx4dz5nxs7k_0slzph0000gn/T/d20260903-16185-io0mvv/opencv2.framework/Versions/A/Headers/videostab/outlier_rejection.hpp  
+     inflating: /var/folders/s6/5hzmn6lx4dz5nxs7k_0slzph0000gn/T/d20260903-16185-io0mvv/opencv2.framework/Versions/A/Headers/videostab/ring_buffer.hpp  
+     inflating: /var/folders/s6/5hzmn6lx4dz5nxs7k_0slzph0000gn/T/d20260903-16185-io0mvv/opencv2.framework/Versions/A/Headers/videostab/stabilizer.hpp  
+     inflating: /var/folders/s6/5hzmn6lx4dz5nxs7k_0slzph0000gn/T/d20260903-16185-io0mvv/opencv2.framework/Versions/A/Headers/videostab/wobble_suppression.hpp  
+     inflating: /var/folders/s6/5hzmn6lx4dz5nxs7k_0slzph0000gn/T/d20260903-16185-io0mvv/opencv2.framework/Versions/A/Headers/videostab.hpp  
+     inflating: /var/folders/s6/5hzmn6lx4dz5nxs7k_0slzph0000gn/T/d20260903-16185-io0mvv/opencv2.framework/Versions/A/Headers/world.hpp  
+      creating: /var/folders/s6/5hzmn6lx4dz5nxs7k_0slzph0000gn/T/d20260903-16185-io0mvv/opencv2.framework/Versions/A/Resources
+     inflating: /var/folders/s6/5hzmn6lx4dz5nxs7k_0slzph0000gn/T/d20260903-16185-io0mvv/opencv2.framework/Versions/A/Resources/Info.plist  
+     inflating: /var/folders/s6/5hzmn6lx4dz5nxs7k_0slzph0000gn/T/d20260903-16185-io0mvv/opencv2.framework/Versions/A/opencv2  
+       linking: /var/folders/s6/5hzmn6lx4dz5nxs7k_0slzph0000gn/T/d20260903-16185-io0mvv/opencv2.framework/Versions/Current  -> A 
+       linking: /var/folders/s6/5hzmn6lx4dz5nxs7k_0slzph0000gn/T/d20260903-16185-io0mvv/opencv2.framework/opencv2  -> Versions/Current/opencv2 
+   finishing deferred symbolic links:
+     /var/folders/s6/5hzmn6lx4dz5nxs7k_0slzph0000gn/T/d20260903-16185-io0mvv/opencv2.framework/Headers -> Versions/Current/Headers
+     /var/folders/s6/5hzmn6lx4dz5nxs7k_0slzph0000gn/T/d20260903-16185-io0mvv/opencv2.framework/Resources -> Versions/Current/Resources
+     /var/folders/s6/5hzmn6lx4dz5nxs7k_0slzph0000gn/T/d20260903-16185-io0mvv/opencv2.framework/Versions/Current -> A
+     /var/folders/s6/5hzmn6lx4dz5nxs7k_0slzph0000gn/T/d20260903-16185-io0mvv/opencv2.framework/opencv2 -> Versions/Current/opencv2
+  $ /usr/bin/rsync -a --exclude=.git --delete /var/folders/s6/5hzmn6lx4dz5nxs7k_0slzph0000gn/T/d20260903-16185-io0mvv/ /Users/runner/Library/Caches/CocoaPods/Pods/Release/OpenCV/3.4.6-1df7b
+  > Copying OpenCV from `/Users/runner/Library/Caches/CocoaPods/Pods/Release/OpenCV/3.4.6-1df7b` to `Pods/OpenCV`
+  - Running pre install hooks
+  - Running pre integrate hooks
+
+Generating Pods project
+  - Creating Pods project
+  - Installing files into Pods project
+    - Adding source files
+    - Adding frameworks
+    - Adding libraries
+    - Adding resources
+    - Linking headers
+  - Installing Pod Targets
+    - Installing target `BaiduNaviKit3` iOS 12.0
+    - Installing target `Masonry` iOS 8.0
+      - Generating module map file at `Pods/Target Support Files/Masonry/Masonry.modulemap`
+      - Generating umbrella header at `Pods/Target Support Files/Masonry/Masonry-umbrella.h`
+      - Generating Info.plist file at `Pods/Target Support Files/Masonry/Masonry-Info.plist`
+      - Generating dummy source at `Pods/Target Support Files/Masonry/Masonry-dummy.m`
+    - Installing target `OpenCV` iOS 8.0
+  - Installing Aggregate Targets
+    - Installing target `Pods-unimoduleProbe` iOS 14.0
+      - Generating Info.plist file at `Pods/Target Support Files/Pods-unimoduleProbe/Pods-unimoduleProbe-Info.plist`
+      - Generating module map file at `Pods/Target Support Files/Pods-unimoduleProbe/Pods-unimoduleProbe.modulemap`
+      - Generating umbrella header at `Pods/Target Support Files/Pods-unimoduleProbe/Pods-unimoduleProbe-umbrella.h`
+      - Generating dummy source at `Pods/Target Support Files/Pods-unimoduleProbe/Pods-unimoduleProbe-dummy.m`
+  - Generating deterministic UUIDs
+  - Stabilizing target UUIDs
+  - Running post install hooks
+    - Podfile
+  - Writing Xcode project file to `Pods/Pods.xcodeproj`
+  Cleaning up sandbox directory
+
+Integrating client project
+
+[!] Please close any current Xcode sessions and use `Probe.xcworkspace` for this project from now on.
+
+Integrating target `Pods-unimoduleProbe` (`Probe.xcodeproj` project)
+  Adding Build Phase '[CP] Copy Pods Resources' to project.
+  Adding Build Phase '[CP] Check Pods Manifest.lock' to project.
+  - Running post integrate hooks
+  - Writing Lockfile in `Podfile.lock`
+  - Writing Manifest in `Pods/Manifest.lock`
+
+-> Pod installation complete! There is 1 dependency from the Podfile and 3 total pods installed.
+
+[!] The Podfile contains framework or static library targets (unimoduleProbe), for which the Podfile does not contain host targets (targets which embed the framework).
+If this project is for doing framework development, you can ignore this message. Otherwise, add a target to the Podfile that embeds these frameworks to make this message go away (e.g. a test target).

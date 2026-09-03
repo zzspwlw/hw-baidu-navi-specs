@@ -1,0 +1,66 @@
+### Pods/Target Support Files/Pods-unimoduleProbe/Pods-unimoduleProbe.release.xcconfig
+CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = NO
+ENABLE_BITCODE = NO
+EXCLUDED_ARCHS[sdk=iphonesimulator*] = arm64 x86_64
+FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/HwBaiduNaviKit/HwBaiduNaviKit/MapSDK" "${PODS_ROOT}/HwBaiduNaviKit/HwBaiduNaviKit/NaviSDK"
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/HwBaiduNaviKit"
+LIBRARY_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/HwBaiduNaviKit/HwBaiduNaviKit/MapSDK/thirdlibs" "${PODS_ROOT}/HwBaiduNaviKit/HwBaiduNaviKit/NaviSDK/lib"
+OTHER_LDFLAGS = $(inherited) -ObjC -w -l"BNOpenTTSComponent" -l"c++" -l"iconv" -l"sqlite3.0" -l"z" -l"zstd" -framework "AVFAudio" -framework "Accelerate" -framework "AdSupport" -framework "AssetsLibrary" -framework "BaiduMapAPI_Base" -framework "BaiduMapAPI_Map" -framework "BaiduNaviSDK" -framework "CallKit" -framework "CoreBluetooth" -framework "CoreLocation" -framework "CoreMotion" -framework "CoreTelephony" -framework "MapKit" -framework "MediaPlayer" -framework "MetalPerformanceShaders" -framework "UserNotifications" -framework "WebKit"
+OTHER_MODULE_VERIFIER_FLAGS = $(inherited) "-F${PODS_CONFIGURATION_BUILD_DIR}/HwBaiduNaviKit"
+PODS_BUILD_DIR = ${BUILD_DIR}
+PODS_CONFIGURATION_BUILD_DIR = ${PODS_BUILD_DIR}/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
+PODS_PODFILE_DIR_PATH = ${SRCROOT}/.
+PODS_ROOT = ${SRCROOT}/Pods
+PODS_XCFRAMEWORKS_BUILD_DIR = $(PODS_CONFIGURATION_BUILD_DIR)/XCFrameworkIntermediates
+USE_RECURSIVE_SCRIPT_INPUTS_IN_SCRIPT_PHASES = YES
+### Pods/Target Support Files/Pods-unimoduleProbe/Pods-unimoduleProbe.debug.xcconfig
+CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = NO
+ENABLE_BITCODE = NO
+EXCLUDED_ARCHS[sdk=iphonesimulator*] = arm64 x86_64
+FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/HwBaiduNaviKit/HwBaiduNaviKit/MapSDK" "${PODS_ROOT}/HwBaiduNaviKit/HwBaiduNaviKit/NaviSDK"
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/HwBaiduNaviKit"
+LIBRARY_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/HwBaiduNaviKit/HwBaiduNaviKit/MapSDK/thirdlibs" "${PODS_ROOT}/HwBaiduNaviKit/HwBaiduNaviKit/NaviSDK/lib"
+OTHER_LDFLAGS = $(inherited) -ObjC -w -l"BNOpenTTSComponent" -l"c++" -l"iconv" -l"sqlite3.0" -l"z" -l"zstd" -framework "AVFAudio" -framework "Accelerate" -framework "AdSupport" -framework "AssetsLibrary" -framework "BaiduMapAPI_Base" -framework "BaiduMapAPI_Map" -framework "BaiduNaviSDK" -framework "CallKit" -framework "CoreBluetooth" -framework "CoreLocation" -framework "CoreMotion" -framework "CoreTelephony" -framework "MapKit" -framework "MediaPlayer" -framework "MetalPerformanceShaders" -framework "UserNotifications" -framework "WebKit"
+OTHER_MODULE_VERIFIER_FLAGS = $(inherited) "-F${PODS_CONFIGURATION_BUILD_DIR}/HwBaiduNaviKit"
+PODS_BUILD_DIR = ${BUILD_DIR}
+PODS_CONFIGURATION_BUILD_DIR = ${PODS_BUILD_DIR}/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
+PODS_PODFILE_DIR_PATH = ${SRCROOT}/.
+PODS_ROOT = ${SRCROOT}/Pods
+PODS_XCFRAMEWORKS_BUILD_DIR = $(PODS_CONFIGURATION_BUILD_DIR)/XCFrameworkIntermediates
+USE_RECURSIVE_SCRIPT_INPUTS_IN_SCRIPT_PHASES = YES
+### Pods/Target Support Files/HwBaiduNaviKit/HwBaiduNaviKit.release.xcconfig
+CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = NO
+CONFIGURATION_BUILD_DIR = ${PODS_CONFIGURATION_BUILD_DIR}/HwBaiduNaviKit
+ENABLE_BITCODE = NO
+EXCLUDED_ARCHS[sdk=iphonesimulator*] = arm64 x86_64
+FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/HwBaiduNaviKit/HwBaiduNaviKit/MapSDK" "${PODS_ROOT}/HwBaiduNaviKit/HwBaiduNaviKit/NaviSDK"
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Private" "${PODS_ROOT}/Headers/Private/HwBaiduNaviKit" "${PODS_ROOT}/Headers/Public"
+PODS_BUILD_DIR = ${BUILD_DIR}
+PODS_CONFIGURATION_BUILD_DIR = ${PODS_BUILD_DIR}/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
+PODS_DEVELOPMENT_LANGUAGE = ${DEVELOPMENT_LANGUAGE}
+PODS_ROOT = ${SRCROOT}
+PODS_TARGET_SRCROOT = ${PODS_ROOT}/HwBaiduNaviKit
+PODS_XCFRAMEWORKS_BUILD_DIR = $(PODS_CONFIGURATION_BUILD_DIR)/XCFrameworkIntermediates
+PRODUCT_BUNDLE_IDENTIFIER = org.cocoapods.${PRODUCT_NAME:rfc1034identifier}
+SKIP_INSTALL = YES
+USE_RECURSIVE_SCRIPT_INPUTS_IN_SCRIPT_PHASES = YES
+### Pods/Target Support Files/HwBaiduNaviKit/HwBaiduNaviKit.debug.xcconfig
+CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = NO
+CONFIGURATION_BUILD_DIR = ${PODS_CONFIGURATION_BUILD_DIR}/HwBaiduNaviKit
+ENABLE_BITCODE = NO
+EXCLUDED_ARCHS[sdk=iphonesimulator*] = arm64 x86_64
+FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/HwBaiduNaviKit/HwBaiduNaviKit/MapSDK" "${PODS_ROOT}/HwBaiduNaviKit/HwBaiduNaviKit/NaviSDK"
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Private" "${PODS_ROOT}/Headers/Private/HwBaiduNaviKit" "${PODS_ROOT}/Headers/Public"
+PODS_BUILD_DIR = ${BUILD_DIR}
+PODS_CONFIGURATION_BUILD_DIR = ${PODS_BUILD_DIR}/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
+PODS_DEVELOPMENT_LANGUAGE = ${DEVELOPMENT_LANGUAGE}
+PODS_ROOT = ${SRCROOT}
+PODS_TARGET_SRCROOT = ${PODS_ROOT}/HwBaiduNaviKit
+PODS_XCFRAMEWORKS_BUILD_DIR = $(PODS_CONFIGURATION_BUILD_DIR)/XCFrameworkIntermediates
+PRODUCT_BUNDLE_IDENTIFIER = org.cocoapods.${PRODUCT_NAME:rfc1034identifier}
+SKIP_INSTALL = YES
+USE_RECURSIVE_SCRIPT_INPUTS_IN_SCRIPT_PHASES = YES

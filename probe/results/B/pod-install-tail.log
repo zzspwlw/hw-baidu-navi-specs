@@ -1,0 +1,120 @@
+     inflating: /var/folders/s6/5hzmn6lx4dz5nxs7k_0slzph0000gn/T/d20260903-16185-io0mvv/opencv2.framework/Versions/A/Headers/objdetect/objdetect_c.h  
+     inflating: /var/folders/s6/5hzmn6lx4dz5nxs7k_0slzph0000gn/T/d20260903-16185-io0mvv/opencv2.framework/Versions/A/Headers/objdetect.hpp  
+     inflating: /var/folders/s6/5hzmn6lx4dz5nxs7k_0slzph0000gn/T/d20260903-16185-io0mvv/opencv2.framework/Versions/A/Headers/opencv.hpp  
+     inflating: /var/folders/s6/5hzmn6lx4dz5nxs7k_0slzph0000gn/T/d20260903-16185-io0mvv/opencv2.framework/Versions/A/Headers/opencv_modules.hpp  
+      creating: /var/folders/s6/5hzmn6lx4dz5nxs7k_0slzph0000gn/T/d20260903-16185-io0mvv/opencv2.framework/Versions/A/Headers/photo
+     inflating: /var/folders/s6/5hzmn6lx4dz5nxs7k_0slzph0000gn/T/d20260903-16185-io0mvv/opencv2.framework/Versions/A/Headers/photo/cuda.hpp  
+     inflating: /var/folders/s6/5hzmn6lx4dz5nxs7k_0slzph0000gn/T/d20260903-16185-io0mvv/opencv2.framework/Versions/A/Headers/photo/photo.hpp  
+     inflating: /var/folders/s6/5hzmn6lx4dz5nxs7k_0slzph0000gn/T/d20260903-16185-io0mvv/opencv2.framework/Versions/A/Headers/photo/photo_c.h  
+     inflating: /var/folders/s6/5hzmn6lx4dz5nxs7k_0slzph0000gn/T/d20260903-16185-io0mvv/opencv2.framework/Versions/A/Headers/photo.hpp  
+      creating: /var/folders/s6/5hzmn6lx4dz5nxs7k_0slzph0000gn/T/d20260903-16185-io0mvv/opencv2.framework/Versions/A/Headers/shape
+     inflating: /var/folders/s6/5hzmn6lx4dz5nxs7k_0slzph0000gn/T/d20260903-16185-io0mvv/opencv2.framework/Versions/A/Headers/shape/emdL1.hpp  
+     inflating: /var/folders/s6/5hzmn6lx4dz5nxs7k_0slzph0000gn/T/d20260903-16185-io0mvv/opencv2.framework/Versions/A/Headers/shape/hist_cost.hpp  
+     inflating: /var/folders/s6/5hzmn6lx4dz5nxs7k_0slzph0000gn/T/d20260903-16185-io0mvv/opencv2.framework/Versions/A/Headers/shape/shape.hpp  
+     inflating: /var/folders/s6/5hzmn6lx4dz5nxs7k_0slzph0000gn/T/d20260903-16185-io0mvv/opencv2.framework/Versions/A/Headers/shape/shape_distance.hpp  
+     inflating: /var/folders/s6/5hzmn6lx4dz5nxs7k_0slzph0000gn/T/d20260903-16185-io0mvv/opencv2.framework/Versions/A/Headers/shape/shape_transformer.hpp  
+     inflating: /var/folders/s6/5hzmn6lx4dz5nxs7k_0slzph0000gn/T/d20260903-16185-io0mvv/opencv2.framework/Versions/A/Headers/shape.hpp  
+      creating: /var/folders/s6/5hzmn6lx4dz5nxs7k_0slzph0000gn/T/d20260903-16185-io0mvv/opencv2.framework/Versions/A/Headers/stitching
+      creating: /var/folders/s6/5hzmn6lx4dz5nxs7k_0slzph0000gn/T/d20260903-16185-io0mvv/opencv2.framework/Versions/A/Headers/stitching/detail
+     inflating: /var/folders/s6/5hzmn6lx4dz5nxs7k_0slzph0000gn/T/d20260903-16185-io0mvv/opencv2.framework/Versions/A/Headers/stitching/detail/autocalib.hpp  
+     inflating: /var/folders/s6/5hzmn6lx4dz5nxs7k_0slzph0000gn/T/d20260903-16185-io0mvv/opencv2.framework/Versions/A/Headers/stitching/detail/blenders.hpp  
+     inflating: /var/folders/s6/5hzmn6lx4dz5nxs7k_0slzph0000gn/T/d20260903-16185-io0mvv/opencv2.framework/Versions/A/Headers/stitching/detail/camera.hpp  
+     inflating: /var/folders/s6/5hzmn6lx4dz5nxs7k_0slzph0000gn/T/d20260903-16185-io0mvv/opencv2.framework/Versions/A/Headers/stitching/detail/exposure_compensate.hpp  
+     inflating: /var/folders/s6/5hzmn6lx4dz5nxs7k_0slzph0000gn/T/d20260903-16185-io0mvv/opencv2.framework/Versions/A/Headers/stitching/detail/matchers.hpp  
+     inflating: /var/folders/s6/5hzmn6lx4dz5nxs7k_0slzph0000gn/T/d20260903-16185-io0mvv/opencv2.framework/Versions/A/Headers/stitching/detail/motion_estimators.hpp  
+     inflating: /var/folders/s6/5hzmn6lx4dz5nxs7k_0slzph0000gn/T/d20260903-16185-io0mvv/opencv2.framework/Versions/A/Headers/stitching/detail/seam_finders.hpp  
+     inflating: /var/folders/s6/5hzmn6lx4dz5nxs7k_0slzph0000gn/T/d20260903-16185-io0mvv/opencv2.framework/Versions/A/Headers/stitching/detail/timelapsers.hpp  
+     inflating: /var/folders/s6/5hzmn6lx4dz5nxs7k_0slzph0000gn/T/d20260903-16185-io0mvv/opencv2.framework/Versions/A/Headers/stitching/detail/util.hpp  
+     inflating: /var/folders/s6/5hzmn6lx4dz5nxs7k_0slzph0000gn/T/d20260903-16185-io0mvv/opencv2.framework/Versions/A/Headers/stitching/detail/util_inl.hpp  
+     inflating: /var/folders/s6/5hzmn6lx4dz5nxs7k_0slzph0000gn/T/d20260903-16185-io0mvv/opencv2.framework/Versions/A/Headers/stitching/detail/warpers.hpp  
+     inflating: /var/folders/s6/5hzmn6lx4dz5nxs7k_0slzph0000gn/T/d20260903-16185-io0mvv/opencv2.framework/Versions/A/Headers/stitching/detail/warpers_inl.hpp  
+     inflating: /var/folders/s6/5hzmn6lx4dz5nxs7k_0slzph0000gn/T/d20260903-16185-io0mvv/opencv2.framework/Versions/A/Headers/stitching/warpers.hpp  
+     inflating: /var/folders/s6/5hzmn6lx4dz5nxs7k_0slzph0000gn/T/d20260903-16185-io0mvv/opencv2.framework/Versions/A/Headers/stitching.hpp  
+      creating: /var/folders/s6/5hzmn6lx4dz5nxs7k_0slzph0000gn/T/d20260903-16185-io0mvv/opencv2.framework/Versions/A/Headers/video
+     inflating: /var/folders/s6/5hzmn6lx4dz5nxs7k_0slzph0000gn/T/d20260903-16185-io0mvv/opencv2.framework/Versions/A/Headers/video/background_segm.hpp  
+     inflating: /var/folders/s6/5hzmn6lx4dz5nxs7k_0slzph0000gn/T/d20260903-16185-io0mvv/opencv2.framework/Versions/A/Headers/video/tracking.hpp  
+     inflating: /var/folders/s6/5hzmn6lx4dz5nxs7k_0slzph0000gn/T/d20260903-16185-io0mvv/opencv2.framework/Versions/A/Headers/video/tracking_c.h  
+     inflating: /var/folders/s6/5hzmn6lx4dz5nxs7k_0slzph0000gn/T/d20260903-16185-io0mvv/opencv2.framework/Versions/A/Headers/video/video.hpp  
+     inflating: /var/folders/s6/5hzmn6lx4dz5nxs7k_0slzph0000gn/T/d20260903-16185-io0mvv/opencv2.framework/Versions/A/Headers/video.hpp  
+      creating: /var/folders/s6/5hzmn6lx4dz5nxs7k_0slzph0000gn/T/d20260903-16185-io0mvv/opencv2.framework/Versions/A/Headers/videoio
+     inflating: /var/folders/s6/5hzmn6lx4dz5nxs7k_0slzph0000gn/T/d20260903-16185-io0mvv/opencv2.framework/Versions/A/Headers/videoio/cap_ios.h  
+     inflating: /var/folders/s6/5hzmn6lx4dz5nxs7k_0slzph0000gn/T/d20260903-16185-io0mvv/opencv2.framework/Versions/A/Headers/videoio/registry.hpp  
+     inflating: /var/folders/s6/5hzmn6lx4dz5nxs7k_0slzph0000gn/T/d20260903-16185-io0mvv/opencv2.framework/Versions/A/Headers/videoio/videoio.hpp  
+     inflating: /var/folders/s6/5hzmn6lx4dz5nxs7k_0slzph0000gn/T/d20260903-16185-io0mvv/opencv2.framework/Versions/A/Headers/videoio/videoio_c.h  
+     inflating: /var/folders/s6/5hzmn6lx4dz5nxs7k_0slzph0000gn/T/d20260903-16185-io0mvv/opencv2.framework/Versions/A/Headers/videoio.hpp  
+      creating: /var/folders/s6/5hzmn6lx4dz5nxs7k_0slzph0000gn/T/d20260903-16185-io0mvv/opencv2.framework/Versions/A/Headers/videostab
+     inflating: /var/folders/s6/5hzmn6lx4dz5nxs7k_0slzph0000gn/T/d20260903-16185-io0mvv/opencv2.framework/Versions/A/Headers/videostab/deblurring.hpp  
+     inflating: /var/folders/s6/5hzmn6lx4dz5nxs7k_0slzph0000gn/T/d20260903-16185-io0mvv/opencv2.framework/Versions/A/Headers/videostab/fast_marching.hpp  
+     inflating: /var/folders/s6/5hzmn6lx4dz5nxs7k_0slzph0000gn/T/d20260903-16185-io0mvv/opencv2.framework/Versions/A/Headers/videostab/fast_marching_inl.hpp  
+     inflating: /var/folders/s6/5hzmn6lx4dz5nxs7k_0slzph0000gn/T/d20260903-16185-io0mvv/opencv2.framework/Versions/A/Headers/videostab/frame_source.hpp  
+     inflating: /var/folders/s6/5hzmn6lx4dz5nxs7k_0slzph0000gn/T/d20260903-16185-io0mvv/opencv2.framework/Versions/A/Headers/videostab/global_motion.hpp  
+     inflating: /var/folders/s6/5hzmn6lx4dz5nxs7k_0slzph0000gn/T/d20260903-16185-io0mvv/opencv2.framework/Versions/A/Headers/videostab/inpainting.hpp  
+     inflating: /var/folders/s6/5hzmn6lx4dz5nxs7k_0slzph0000gn/T/d20260903-16185-io0mvv/opencv2.framework/Versions/A/Headers/videostab/log.hpp  
+     inflating: /var/folders/s6/5hzmn6lx4dz5nxs7k_0slzph0000gn/T/d20260903-16185-io0mvv/opencv2.framework/Versions/A/Headers/videostab/motion_core.hpp  
+     inflating: /var/folders/s6/5hzmn6lx4dz5nxs7k_0slzph0000gn/T/d20260903-16185-io0mvv/opencv2.framework/Versions/A/Headers/videostab/motion_stabilizing.hpp  
+     inflating: /var/folders/s6/5hzmn6lx4dz5nxs7k_0slzph0000gn/T/d20260903-16185-io0mvv/opencv2.framework/Versions/A/Headers/videostab/optical_flow.hpp  
+     inflating: /var/folders/s6/5hzmn6lx4dz5nxs7k_0slzph0000gn/T/d20260903-16185-io0mvv/opencv2.framework/Versions/A/Headers/videostab/outlier_rejection.hpp  
+     inflating: /var/folders/s6/5hzmn6lx4dz5nxs7k_0slzph0000gn/T/d20260903-16185-io0mvv/opencv2.framework/Versions/A/Headers/videostab/ring_buffer.hpp  
+     inflating: /var/folders/s6/5hzmn6lx4dz5nxs7k_0slzph0000gn/T/d20260903-16185-io0mvv/opencv2.framework/Versions/A/Headers/videostab/stabilizer.hpp  
+     inflating: /var/folders/s6/5hzmn6lx4dz5nxs7k_0slzph0000gn/T/d20260903-16185-io0mvv/opencv2.framework/Versions/A/Headers/videostab/wobble_suppression.hpp  
+     inflating: /var/folders/s6/5hzmn6lx4dz5nxs7k_0slzph0000gn/T/d20260903-16185-io0mvv/opencv2.framework/Versions/A/Headers/videostab.hpp  
+     inflating: /var/folders/s6/5hzmn6lx4dz5nxs7k_0slzph0000gn/T/d20260903-16185-io0mvv/opencv2.framework/Versions/A/Headers/world.hpp  
+      creating: /var/folders/s6/5hzmn6lx4dz5nxs7k_0slzph0000gn/T/d20260903-16185-io0mvv/opencv2.framework/Versions/A/Resources
+     inflating: /var/folders/s6/5hzmn6lx4dz5nxs7k_0slzph0000gn/T/d20260903-16185-io0mvv/opencv2.framework/Versions/A/Resources/Info.plist  
+     inflating: /var/folders/s6/5hzmn6lx4dz5nxs7k_0slzph0000gn/T/d20260903-16185-io0mvv/opencv2.framework/Versions/A/opencv2  
+       linking: /var/folders/s6/5hzmn6lx4dz5nxs7k_0slzph0000gn/T/d20260903-16185-io0mvv/opencv2.framework/Versions/Current  -> A 
+       linking: /var/folders/s6/5hzmn6lx4dz5nxs7k_0slzph0000gn/T/d20260903-16185-io0mvv/opencv2.framework/opencv2  -> Versions/Current/opencv2 
+   finishing deferred symbolic links:
+     /var/folders/s6/5hzmn6lx4dz5nxs7k_0slzph0000gn/T/d20260903-16185-io0mvv/opencv2.framework/Headers -> Versions/Current/Headers
+     /var/folders/s6/5hzmn6lx4dz5nxs7k_0slzph0000gn/T/d20260903-16185-io0mvv/opencv2.framework/Resources -> Versions/Current/Resources
+     /var/folders/s6/5hzmn6lx4dz5nxs7k_0slzph0000gn/T/d20260903-16185-io0mvv/opencv2.framework/Versions/Current -> A
+     /var/folders/s6/5hzmn6lx4dz5nxs7k_0slzph0000gn/T/d20260903-16185-io0mvv/opencv2.framework/opencv2 -> Versions/Current/opencv2
+  $ /usr/bin/rsync -a --exclude=.git --delete /var/folders/s6/5hzmn6lx4dz5nxs7k_0slzph0000gn/T/d20260903-16185-io0mvv/ /Users/runner/Library/Caches/CocoaPods/Pods/Release/OpenCV/3.4.6-1df7b
+  > Copying OpenCV from `/Users/runner/Library/Caches/CocoaPods/Pods/Release/OpenCV/3.4.6-1df7b` to `Pods/OpenCV`
+  - Running pre install hooks
+  - Running pre integrate hooks
+
+Generating Pods project
+  - Creating Pods project
+  - Installing files into Pods project
+    - Adding source files
+    - Adding frameworks
+    - Adding libraries
+    - Adding resources
+    - Linking headers
+  - Installing Pod Targets
+    - Installing target `BaiduNaviKit3` iOS 12.0
+    - Installing target `Masonry` iOS 8.0
+      - Generating module map file at `Pods/Target Support Files/Masonry/Masonry.modulemap`
+      - Generating umbrella header at `Pods/Target Support Files/Masonry/Masonry-umbrella.h`
+      - Generating Info.plist file at `Pods/Target Support Files/Masonry/Masonry-Info.plist`
+      - Generating dummy source at `Pods/Target Support Files/Masonry/Masonry-dummy.m`
+    - Installing target `OpenCV` iOS 8.0
+  - Installing Aggregate Targets
+    - Installing target `Pods-unimoduleProbe` iOS 14.0
+      - Generating Info.plist file at `Pods/Target Support Files/Pods-unimoduleProbe/Pods-unimoduleProbe-Info.plist`
+      - Generating module map file at `Pods/Target Support Files/Pods-unimoduleProbe/Pods-unimoduleProbe.modulemap`
+      - Generating umbrella header at `Pods/Target Support Files/Pods-unimoduleProbe/Pods-unimoduleProbe-umbrella.h`
+      - Generating dummy source at `Pods/Target Support Files/Pods-unimoduleProbe/Pods-unimoduleProbe-dummy.m`
+  - Generating deterministic UUIDs
+  - Stabilizing target UUIDs
+  - Running post install hooks
+    - Podfile
+  - Writing Xcode project file to `Pods/Pods.xcodeproj`
+  Cleaning up sandbox directory
+
+Integrating client project
+
+[!] Please close any current Xcode sessions and use `Probe.xcworkspace` for this project from now on.
+
+Integrating target `Pods-unimoduleProbe` (`Probe.xcodeproj` project)
+  Adding Build Phase '[CP] Copy Pods Resources' to project.
+  Adding Build Phase '[CP] Check Pods Manifest.lock' to project.
+  - Running post integrate hooks
+  - Writing Lockfile in `Podfile.lock`
+  - Writing Manifest in `Pods/Manifest.lock`
+
+-> Pod installation complete! There is 1 dependency from the Podfile and 3 total pods installed.
+
+[!] The Podfile contains framework or static library targets (unimoduleProbe), for which the Podfile does not contain host targets (targets which embed the framework).
+If this project is for doing framework development, you can ignore this message. Otherwise, add a target to the Podfile that embeds these frameworks to make this message go away (e.g. a test target).

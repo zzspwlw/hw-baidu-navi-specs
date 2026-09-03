@@ -1,0 +1,11 @@
+Pods/OpenCV/opencv2.framework
+Pods/BaiduNaviKit3/MapSDK/BaiduMapAPI_Map.framework
+Pods/BaiduNaviKit3/MapSDK/thirdlibs/libcrypto.a
+Pods/BaiduNaviKit3/MapSDK/thirdlibs/libssl.a
+Pods/BaiduNaviKit3/MapSDK/BaiduMapAPI_Utils.framework
+Pods/BaiduNaviKit3/MapSDK/BaiduMapAPI_WalkNavi.framework
+Pods/BaiduNaviKit3/MapSDK/BaiduMapAPI_Base.framework
+Pods/BaiduNaviKit3/MapSDK/BaiduMapAPI_Search.framework
+Pods/BaiduNaviKit3/BaiduNaviSDK.framework
+Pods/BaiduNaviKit3/BaiduNaviTTS.framework
+Pods/BaiduNaviKit3/BaiduTraceKit/BaiduTraceSDK.framework

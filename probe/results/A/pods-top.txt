@@ -1,0 +1,10 @@
+total 8
+drwxr-xr-x   8 runner  staff  256 Sep  3 09:34 .
+drwxr-xr-x  11 runner  staff  352 Sep  3 09:34 ..
+drwxr-xr-x   4 runner  staff  128 Sep  3 09:34 Headers
+drwxr-xr-x   4 runner  staff  128 Sep  3 09:34 HwBaiduNaviKit
+drwxr-xr-x   3 runner  staff   96 Sep  3 09:34 Local Podspecs
+-rw-r--r--   1 runner  staff  872 Sep  3 09:34 Manifest.lock
+drwxr-xr-x   4 runner  staff  128 Sep  3 09:34 Pods.xcodeproj
+drwxr-xr-x   4 runner  staff  128 Sep  3 09:34 Target Support Files
+423M	Pods

@@ -1,0 +1,71 @@
+  Preparing
+
+Analyzing dependencies
+
+Inspecting targets to integrate
+  Using `ARCHS` setting to build architectures of target `Pods-unimoduleProbe`: (``)
+
+Fetching external sources
+-> Pre-downloading: `HwBaiduNaviKit` from `https://github.com/zzspwlw/hw-baidu-navi-specs.git`, tag `7.2.0`
+ > Git download
+ > Git download
+     $ /opt/homebrew/bin/git clone https://github.com/zzspwlw/hw-baidu-navi-specs.git /var/folders/s6/5hzmn6lx4dz5nxs7k_0slzph0000gn/T/d20260903-14638-l63gkn --template= --single-branch --depth 1 --branch 7.2.0
+     Cloning into '/var/folders/s6/5hzmn6lx4dz5nxs7k_0slzph0000gn/T/d20260903-14638-l63gkn'...
+  $ /usr/bin/rsync -a --exclude=.git --delete /var/folders/s6/5hzmn6lx4dz5nxs7k_0slzph0000gn/T/d20260903-14638-l63gkn/ /Users/runner/Library/Caches/CocoaPods/Pods/External/HwBaiduNaviKit/6af2cb737cc674f85085af96d216dfd0
+ > Running prepare command
+   $ /bin/bash -c  set -e curl -fsSL -o hwkit.zip "https://file.spiov.com/hw-baidu-navi-kit-out/HwBaiduNaviKit-7.2.0.zip" && unzip -oq hwkit.zip && rm -f hwkit.zip
+  > Copying HwBaiduNaviKit from `/Users/runner/Library/Caches/CocoaPods/Pods/External/HwBaiduNaviKit/6af2cb737cc674f85085af96d216dfd0` to `Pods/HwBaiduNaviKit`
+
+Resolving dependencies of `Podfile`
+
+Adding spec repo `trunk` with CDN `https://cdn.cocoapods.org/`
+  CDN: trunk Relative path downloaded: CocoaPods-version.yml, save ETag: "6a993833-38"
+  CDN: trunk Relative path: CocoaPods-version.yml exists! Returning local because checking is only performed in repo update
+
+Comparing resolved specification to the sandbox manifest
+  A HwBaiduNaviKit
+
+Downloading dependencies
+
+-> Installing HwBaiduNaviKit (7.2.0)
+  - Running pre install hooks
+  - Running pre integrate hooks
+
+Generating Pods project
+  - Creating Pods project
+  - Installing files into Pods project
+    - Adding source files
+    - Adding frameworks
+    - Adding libraries
+    - Adding resources
+    - Linking headers
+  - Installing Pod Targets
+    - Installing target `HwBaiduNaviKit` iOS 12.0
+  - Installing Aggregate Targets
+    - Installing target `Pods-unimoduleProbe` iOS 14.0
+      - Generating Info.plist file at `Pods/Target Support Files/Pods-unimoduleProbe/Pods-unimoduleProbe-Info.plist`
+      - Generating module map file at `Pods/Target Support Files/Pods-unimoduleProbe/Pods-unimoduleProbe.modulemap`
+      - Generating umbrella header at `Pods/Target Support Files/Pods-unimoduleProbe/Pods-unimoduleProbe-umbrella.h`
+      - Generating dummy source at `Pods/Target Support Files/Pods-unimoduleProbe/Pods-unimoduleProbe-dummy.m`
+  - Generating deterministic UUIDs
+  - Stabilizing target UUIDs
+  - Running post install hooks
+    - Podfile
+  - Writing Xcode project file to `Pods/Pods.xcodeproj`
+  Cleaning up sandbox directory
+
+Integrating client project
+
+[!] Please close any current Xcode sessions and use `Probe.xcworkspace` for this project from now on.
+
+Integrating target `Pods-unimoduleProbe` (`Probe.xcodeproj` project)
+  Adding Build Phase '[CP] Copy Pods Resources' to project.
+  Adding Build Phase '[CP] Check Pods Manifest.lock' to project.
+  - Running post integrate hooks
+  - Writing Lockfile in `Podfile.lock`
+  - Writing Manifest in `Pods/Manifest.lock`
+
+-> Pod installation complete! There is 1 dependency from the Podfile and 1 total pod installed.
+
+[!] The Podfile contains framework or static library targets (unimoduleProbe), for which the Podfile does not contain host targets (targets which embed the framework).
+If this project is for doing framework development, you can ignore this message. Otherwise, add a target to the Podfile that embeds these frameworks to make this message go away (e.g. a test target).

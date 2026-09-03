@@ -1,0 +1,32 @@
+=== file checks ===
+Pods/HwBaiduNaviKit/HwBaiduNaviKit/NaviSDK/BaiduNaviSDK.framework/BaiduNaviSDK: current ar archive
+Pods/HwBaiduNaviKit/HwBaiduNaviKit/MapSDK/BaiduMapAPI_Base.framework/BaiduMapAPI_Base: current ar archive
+Pods/HwBaiduNaviKit/HwBaiduNaviKit/MapSDK/BaiduMapAPI_Map.framework/BaiduMapAPI_Map: current ar archive
+=== nm: navi classes ===
+0000000000002240 S _OBJC_CLASS_$_BNaviService
+000000000000a410 D _BNaviTripTypeKey
+0000000000042918 S _OBJC_CLASS_$_BNaviModel
+0000000000000248 S _OBJC_CLASS_$_BNaviModelHelper
+0000000000001b78 S _OBJC_CLASS_$_BNPosition
+0000000000001bc8 S _OBJC_CLASS_$_BNRoutePlanNode
+0000000000000798 S _OBJC_CLASS_$_BNaviServiceAreaHeaderView
+00000000000002b8 S _OBJC_CLASS_$_BNaviServiceAreaListFlowContainerModel
+0000000000003660 S _OBJC_CLASS_$_BNaviServiceAreaListCell
+00000000000006a8 S _OBJC_CLASS_$_BNaviServicePanelModel
+0000000000003fc8 S _OBJC_CLASS_$_BNaviServiceAreaChargeStationCell
+00000000000000d8 S _OBJC_CLASS_$_BNaviServiceAreaListUtil
+0000000000004de0 S _OBJC_CLASS_$_BNaviServiceAreaChargeCell
+0000000000002188 S _OBJC_CLASS_$_BNaviServicePanelView
+0000000000000ca8 S _OBJC_CLASS_$_BNaviServiceAreaListFlowContainerCaculator
+0000000000000320 S _OBJC_CLASS_$_BNaviServiceAreaListFlowContainerDataModel
+00000000000002d0 S _OBJC_CLASS_$_BNaviServiceAreaListCellFlowCell
+0000000000005760 S _OBJC_CLASS_$_BNaviServiceAreaListView
+=== nm: BMKMapManager locations ===
+BMKMapManager+Navi.o:
+BMKMapManager.o:
+00000000000015a0 S _OBJC_CLASS_$_BMKMapManager
+000000000000210c S _OBJC_IVAR_$_BMKMapManager._delegate
+0000000000002108 S _OBJC_IVAR_$_BMKMapManager._firstTimeReachabilityChange
+00000000000015c8 S _OBJC_METACLASS_$_BMKMapManager
+=== lipo -info ===
+Non-fat file: Pods/HwBaiduNaviKit/HwBaiduNaviKit/NaviSDK/BaiduNaviSDK.framework/BaiduNaviSDK is architecture: arm64

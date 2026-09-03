@@ -1,0 +1,32 @@
+=== file checks ===
+Pods/HwBaiduNaviKit/HwBaiduNaviKit/NaviSDK/BaiduNaviSDK.framework/BaiduNaviSDK: cannot open `Pods/HwBaiduNaviKit/HwBaiduNaviKit/NaviSDK/BaiduNaviSDK.framework/BaiduNaviSDK' (No such file or directory)
+Pods/HwBaiduNaviKit/HwBaiduNaviKit/MapSDK/BaiduMapAPI_Base.framework/BaiduMapAPI_Base: cannot open `Pods/HwBaiduNaviKit/HwBaiduNaviKit/MapSDK/BaiduMapAPI_Base.framework/BaiduMapAPI_Base' (No such file or directory)
+Pods/HwBaiduNaviKit/HwBaiduNaviKit/MapSDK/BaiduMapAPI_Map.framework/BaiduMapAPI_Map: cannot open `Pods/HwBaiduNaviKit/HwBaiduNaviKit/MapSDK/BaiduMapAPI_Map.framework/BaiduMapAPI_Map' (No such file or directory)
+=== nm: navi classes ===
+=== nm: BMKMapManager locations ===
+=== lipo -info ===
+fatal error: /Applications/Xcode_15.4.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo: can't open input file: Pods/HwBaiduNaviKit/HwBaiduNaviKit/NaviSDK/BaiduNaviSDK.framework/BaiduNaviSDK (No such file or directory)
+=== B file checks ===
+Pods/BaiduNaviKit3/BaiduNaviSDK.framework/BaiduNaviSDK: current ar archive
+=== B nm: navi classes ===
+00000000000015a0 S _OBJC_CLASS_$_BNaviService
+0000000000009570 D _BNaviTripTypeKey
+000000000003cb10 S _OBJC_CLASS_$_BNaviModel
+0000000000000248 S _OBJC_CLASS_$_BNaviModelHelper
+00000000000021d0 S _OBJC_CLASS_$_BNaviModelLiveDataModel
+00000000000018e0 S _OBJC_CLASS_$_BNPosition
+0000000000001930 S _OBJC_CLASS_$_BNRoutePlanNode
+00000000000008f8 S _OBJC_CLASS_$_BNaviServiceAreaHeaderView
+0000000000000318 S _OBJC_CLASS_$_BNaviServiceAreaListFlowContainerModel
+0000000000003f70 S _OBJC_CLASS_$_BNaviServiceAreaListCell
+00000000000006a8 S _OBJC_CLASS_$_BNaviServicePanelModel
+0000000000004998 S _OBJC_CLASS_$_BNaviServiceAreaChargeStationCell
+00000000000000d8 S _OBJC_CLASS_$_BNaviServiceAreaListUtil
+0000000000005c28 S _OBJC_CLASS_$_BNaviServiceAreaChargeCell
+0000000000002d30 S _OBJC_CLASS_$_BNaviServicePanelView
+0000000000000ca8 S _OBJC_CLASS_$_BNaviServiceAreaListFlowContainerCaculator
+00000000000003c0 S _OBJC_CLASS_$_BNaviServiceAreaListFlowContainerDataModel
+00000000000002d0 S _OBJC_CLASS_$_BNaviServiceAreaListCellFlowCell
+0000000000006628 S _OBJC_CLASS_$_BNaviServiceAreaListView
+=== B lipo -info ===
+Non-fat file: Pods/BaiduNaviKit3/BaiduNaviSDK.framework/BaiduNaviSDK is architecture: arm64
