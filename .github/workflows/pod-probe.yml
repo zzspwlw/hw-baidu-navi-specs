@@ -1,0 +1,33 @@
+name: pod-probe-dcloud-podfile
+
+on:
+  push:
+    branches: [codex/pod-probe-2]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  probe:
+    runs-on: macos-14
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Probe A - HwBaiduNaviKit repo+tag (current failing pod)
+        run: |
+          bash probe/run_probe.sh A "pod 'HwBaiduNaviKit', :git => 'https://github.com/zzspwlw/hw-baidu-navi-specs.git', :tag => '7.2.0'"
+
+      - name: Probe B - BaiduNaviKit3 repo+tag (market working pod)
+        run: |
+          bash probe/run_probe.sh B "pod 'BaiduNaviKit3', :git => 'https://gitcode.com/qqbuy/podspec.git', :tag => '7.2.1.7'"
+
+      - name: Publish probe results
+        run: |
+          git config user.name "codex-pod-probe"
+          git config user.email "codex-pod-probe@users.noreply.github.com"
+          git checkout -b codex/pod-probe-result 2>/dev/null || git checkout codex/pod-probe-result
+          git add -f probe/results
+          git commit -m "pod probe results $(date -u +%Y%m%dT%H%M%SZ)" --allow-empty
+          git push origin HEAD:codex/pod-probe-result --force
