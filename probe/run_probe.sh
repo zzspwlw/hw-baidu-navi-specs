@@ -58,6 +58,31 @@ du -sh Pods >> ../results/$VARIANT/pods-top.txt || true
 cp pod-install.log ../results/$VARIANT/pod-install.log
 tail -n 120 pod-install.log > ../results/$VARIANT/pod-install-tail.log
 
+{
+  echo "=== file checks ==="
+  file Pods/HwBaiduNaviKit/HwBaiduNaviKit/NaviSDK/BaiduNaviSDK.framework/BaiduNaviSDK || true
+  file Pods/HwBaiduNaviKit/HwBaiduNaviKit/MapSDK/BaiduMapAPI_Base.framework/BaiduMapAPI_Base || true
+  file Pods/HwBaiduNaviKit/HwBaiduNaviKit/MapSDK/BaiduMapAPI_Map.framework/BaiduMapAPI_Map || true
+  echo "=== nm: navi classes ==="
+  nm -gU Pods/HwBaiduNaviKit/HwBaiduNaviKit/NaviSDK/BaiduNaviSDK.framework/BaiduNaviSDK 2>/dev/null | grep -E '_OBJC_CLASS_\$_BNaviService|_OBJC_CLASS_\$_BNaviModel|_OBJC_CLASS_\$_BNPosition|_OBJC_CLASS_\$_BNRoutePlanNode|BNaviTripTypeKey' | head -n 30 || true
+  echo "=== nm: BMKMapManager locations ==="
+  nm -gU Pods/HwBaiduNaviKit/HwBaiduNaviKit/MapSDK/BaiduMapAPI_Base.framework/BaiduMapAPI_Base 2>/dev/null | grep 'BMKMapManager' | head -n 10 || true
+  nm -gU Pods/HwBaiduNaviKit/HwBaiduNaviKit/MapSDK/BaiduMapAPI_Map.framework/BaiduMapAPI_Map 2>/dev/null | grep 'BMKMapManager' | head -n 10 || true
+  echo "=== lipo -info ==="
+  lipo -info Pods/HwBaiduNaviKit/HwBaiduNaviKit/NaviSDK/BaiduNaviSDK.framework/BaiduNaviSDK 2>&1 || true
+} > ../results/$VARIANT/nm-dump.txt
+
+if [ "$VARIANT" = "B" ]; then
+  {
+    echo "=== B file checks ==="
+    file Pods/BaiduNaviKit3/BaiduNaviSDK.framework/BaiduNaviSDK || true
+    echo "=== B nm: navi classes ==="
+    nm -gU Pods/BaiduNaviKit3/BaiduNaviSDK.framework/BaiduNaviSDK 2>/dev/null | grep -E '_OBJC_CLASS_\$_BNaviService|_OBJC_CLASS_\$_BNaviModel|_OBJC_CLASS_\$_BNPosition|_OBJC_CLASS_\$_BNRoutePlanNode|BNaviTripTypeKey' | head -n 30 || true
+    echo "=== B lipo -info ==="
+    lipo -info Pods/BaiduNaviKit3/BaiduNaviSDK.framework/BaiduNaviSDK 2>&1 || true
+  } >> ../results/$VARIANT/nm-dump.txt
+fi
+
 if xcodebuild -workspace Probe.xcworkspace -scheme unimoduleProbe -configuration Debug \
      -sdk iphoneos -arch arm64 ONLY_ACTIVE_ARCH=NO CODE_SIGNING_ALLOWED=NO \
      build > build.log 2>&1; then
