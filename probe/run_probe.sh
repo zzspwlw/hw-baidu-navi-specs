@@ -58,4 +58,14 @@ du -sh Pods >> ../results/$VARIANT/pods-top.txt || true
 cp pod-install.log ../results/$VARIANT/pod-install.log
 tail -n 120 pod-install.log > ../results/$VARIANT/pod-install-tail.log
 
+if xcodebuild -workspace Probe.xcworkspace -scheme unimoduleProbe -configuration Debug \
+     -sdk iphoneos -arch arm64 ONLY_ACTIVE_ARCH=NO CODE_SIGNING_ALLOWED=NO \
+     build > build.log 2>&1; then
+  echo "XCODEBUILD OK [$VARIANT]" | tee -a ../results/$VARIANT/build-result.txt
+else
+  echo "XCODEBUILD FAILED [$VARIANT]" | tee -a ../results/$VARIANT/build-result.txt
+  tail -n 120 build.log >> ../results/$VARIANT/build-result.txt
+fi
+cp build.log ../results/$VARIANT/build.log
+
 echo "DONE [$VARIANT]"
