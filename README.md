@@ -1,30 +1,37 @@
-# HwBaiduNaviKit Spec 仓库
+# HwBaiduNaviKit pod 仓库
 
-给 HBuilderX 云打包提供 `HwBaiduNaviKit 7.2.0` 的 podspec 索引（二进制 zip 托管在
-OSS，podspec 通过 `source.http` 指向它）。
+给 HBuilderX 云打包提供 `HwBaiduNaviKit 7.2.0`。仓库只放 podspec 文本（几 KB），
+二进制 zip（约 187MB）托管在 OSS，pod install 时由 podspec 的 `prepare_command`
+下载并解包——既走 DCloud 云打包验证过的 `repo` 集成路径，又不占用 git/LFS 配额。
 
-## 目录结构（CocoaPods spec repo 标准布局）
+## 目录结构（pow-bmapx 同款 repo 形态）
 
 ```
-HwBaiduNaviKit/7.2.0/HwBaiduNaviKit.podspec.json
+HwBaiduNaviKit.podspec.json   # podspec 必须在仓库根
 ```
 
-## 插件 config.json 用法
+## 插件 config.json 用法（dev_map_navigation 分支）
 
 ```json
 "dependencies-pods": [
   {
     "name": "HwBaiduNaviKit",
-    "version": "7.2.0",
-    "source": "<本仓库 git 地址>"
+    "repo": {
+      "git": "https://github.com/zzspwlw/hw-baidu-navi-specs.git",
+      "tag": "7.2.0"
+    }
   }
 ]
 ```
 
-## 注意
+## 原理与注意
 
-- 仓库必须公网可匿名 clone（gitee / gitcode / github），DCloud 云构建无凭据通道。
-- podspec 里的 `source.http` 必须指向 OSS 公共读 zip 直链。
-- 不要用 `repo` 字段指向本仓库：`repo` 等价 `pod 'X', :git => ...`，
-  会把 git 检出内容当 pod 本体，不会下载 OSS zip。
-- 二进制有更新时：替换 OSS zip → 修改 podspec → 重新打 tag（如 `7.2.0`）。
+- `repo` 等价 CocoaPods `pod 'HwBaiduNaviKit', :git => ..., :tag => ...`：
+  云端 clone 本仓库根部的 podspec，再执行 `prepare_command`
+  （`curl` OSS zip + `unzip`），vendored framework 路径随后即可解析。
+- podspec 的 `source.http` 字段保留，作为标准 CocoaPods 语义的兜底声明。
+- 仓库必须公网可匿名 clone（当前 GitHub `zzspwlw/hw-baidu-navi-specs`）。
+- OSS zip 必须公共读；更新二进制时：换 zip → 改 podspec 版本/URL →
+  提交并移动 tag（当前 `7.2.0`）。
+- 验证记录：GitHub Actions `pod-probe` 分支实测 repo+prepare_command
+  `BUILD SUCCEEDED`，`OTHER_LDFLAGS` 含 `-framework BaiduMapAPI_Base/BaiduMapAPI_Map/BaiduNaviSDK`。

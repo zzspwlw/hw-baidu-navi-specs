@@ -2,7 +2,7 @@
   "name": "HwBaiduNaviKit",
   "version": "7.2.0",
   "summary": "HW 私有百度导航 iOS SDK（官方 BaiduNaviKit-All 7.2.0 / V8.0.3 的 framework 化分发，规避 UTS 云打包 duplicate symbol）",
-  "description": "将官方 BaiduNaviKit-All 7.2.0 的导航静态库 libbaiduNaviOpenSDK.a 以 BaiduNaviSDK.framework 形态提供，Map/Base 保持官方 framework 原样，TTS 仍为 .a。仅 arm64。",
+  "description": "将官方 BaiduNaviKit-All 7.2.0 的导航静态库 libbaiduNaviOpenSDK.a 以 BaiduNaviSDK.framework 形态提供，Map/Base 保持官方 framework 原样，TTS 仍为 .a。仅 arm64。二进制 zip 托管于 OSS，pod install 时由 prepare_command 下载并解包。",
   "homepage": "https://lbsyun.baidu.com/index.php?title=ios-navsdk",
   "license": {
     "type": "Copyright",
@@ -14,6 +14,7 @@
   "source": {
     "http": "https://file.spiov.com/hw-baidu-navi-kit-out/HwBaiduNaviKit-7.2.0.zip"
   },
+  "prepare_command": "curl -fsSL -o hwkit.zip \"https://file.spiov.com/hw-baidu-navi-kit-out/HwBaiduNaviKit-7.2.0.zip\" && unzip -oq hwkit.zip && rm -f hwkit.zip",
   "platforms": {
     "ios": "12.0"
   },
