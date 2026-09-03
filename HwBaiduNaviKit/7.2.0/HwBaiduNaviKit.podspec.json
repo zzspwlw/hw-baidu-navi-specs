@@ -1,0 +1,111 @@
+{
+  "name": "HwBaiduNaviKit",
+  "version": "7.2.0",
+  "summary": "HW 私有百度导航 iOS SDK（官方 BaiduNaviKit-All 7.2.0 / V8.0.3 的 framework 化分发，规避 UTS 云打包 duplicate symbol）",
+  "description": "将官方 BaiduNaviKit-All 7.2.0 的导航静态库 libbaiduNaviOpenSDK.a 以 BaiduNaviSDK.framework 形态提供，Map/Base 保持官方 framework 原样，TTS 仍为 .a。仅 arm64。",
+  "homepage": "https://lbsyun.baidu.com/index.php?title=ios-navsdk",
+  "license": {
+    "type": "Copyright",
+    "text": "Copyright (c) 2026 BaiduLBS"
+  },
+  "authors": {
+    "baidu navi sdk": "dituapi_01@163.com"
+  },
+  "source": {
+    "http": "https://file.spiov.com/hw-baidu-navi-kit-out/HwBaiduNaviKit-7.2.0.zip"
+  },
+  "platforms": {
+    "ios": "12.0"
+  },
+  "requires_arc": true,
+  "static_framework": true,
+  "pod_target_xcconfig": {
+    "ENABLE_BITCODE": "NO",
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64 x86_64"
+  },
+  "user_target_xcconfig": {
+    "OTHER_LDFLAGS": "-w",
+    "ENABLE_BITCODE": "NO",
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64 x86_64"
+  },
+  "frameworks": [
+    "Accelerate",
+    "AdSupport",
+    "AssetsLibrary",
+    "UserNotifications",
+    "MediaPlayer",
+    "CoreLocation",
+    "CoreBluetooth",
+    "CoreTelephony",
+    "CoreMotion",
+    "WebKit",
+    "MapKit",
+    "AVFAudio",
+    "CallKit",
+    "MetalPerformanceShaders"
+  ],
+  "libraries": [
+    "sqlite3.0",
+    "c++",
+    "iconv",
+    "z"
+  ],
+  "default_subspecs": [
+    "Base",
+    "Map",
+    "Navi",
+    "TTS"
+  ],
+  "subspecs": [
+    {
+      "name": "Base",
+      "ios": {
+        "vendored_frameworks": "HwBaiduNaviKit/MapSDK/BaiduMapAPI_Base.framework",
+        "vendored_libraries": "HwBaiduNaviKit/MapSDK/thirdlibs/*.a",
+        "source_files": "HwBaiduNaviKit/MapSDK/BaiduMapAPI_Base.framework/Headers/*.h",
+        "public_header_files": "HwBaiduNaviKit/MapSDK/BaiduMapAPI_Base.framework/Headers/*.h"
+      }
+    },
+    {
+      "name": "Map",
+      "ios": {
+        "dependencies": {
+          "HwBaiduNaviKit/Base": []
+        },
+        "resources": "HwBaiduNaviKit/MapSDK/BaiduMapAPI_Map.framework/*.bundle",
+        "vendored_frameworks": "HwBaiduNaviKit/MapSDK/BaiduMapAPI_Map.framework",
+        "source_files": "HwBaiduNaviKit/MapSDK/BaiduMapAPI_Map.framework/Headers/*.h",
+        "public_header_files": "HwBaiduNaviKit/MapSDK/BaiduMapAPI_Map.framework/Headers/*.h"
+      }
+    },
+    {
+      "name": "Navi",
+      "ios": {
+        "dependencies": {
+          "HwBaiduNaviKit/Map": []
+        },
+        "vendored_frameworks": "HwBaiduNaviKit/NaviSDK/BaiduNaviSDK.framework",
+        "source_files": "HwBaiduNaviKit/NaviSDK/BaiduNaviSDK.framework/Headers/*.h",
+        "public_header_files": "HwBaiduNaviKit/NaviSDK/BaiduNaviSDK.framework/Headers/*.h",
+        "resources": [
+          "HwBaiduNaviKit/NaviSDK/resource/baiduNaviSDK.bundle",
+          "HwBaiduNaviKit/NaviSDK/resource/mode.bundle"
+        ]
+      }
+    },
+    {
+      "name": "TTS",
+      "ios": {
+        "dependencies": {
+          "HwBaiduNaviKit/Navi": []
+        },
+        "vendored_libraries": "HwBaiduNaviKit/NaviSDK/lib/libBNOpenTTSComponent.a",
+        "source_files": "HwBaiduNaviKit/NaviSDK/lib/inc/*.h",
+        "public_header_files": "HwBaiduNaviKit/NaviSDK/lib/inc/*.h",
+        "resources": [
+          "HwBaiduNaviKit/NaviSDK/resource/baiduTTSSDK.bundle"
+        ]
+      }
+    }
+  ]
+}
