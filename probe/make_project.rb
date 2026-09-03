@@ -46,9 +46,8 @@ project = Xcodeproj::Project.new(project_path)
 project.root_object.attributes['LastUpgradeCheck'] = '1500'
 
 main_group = project.main_group
-group = main_group.new_group('Probe', 'Probe')
-file_ref = group.new_file('dummy.swift')
-probe_ref = group.new_file('probe.m')
+file_ref = main_group.new_file('dummy.swift')
+probe_ref = main_group.new_file('probe.m')
 
 target = project.new_target(:framework, name, :ios, '14.0')
 target.add_file_references([file_ref, probe_ref])
